@@ -38,7 +38,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-full relative" data-aos="fade-left">
-        <div className="absolute top-1 right-4 shadow-lg shadow-primary_9 rounded-lg hover:scale-105 transition-all ease-linear">
+        <div className="absolute top-1 right-4 shadow-md  rounded-lg hover:scale-105 transition-all ease-linear">
           <Image
             src="/assets/images/lesalama_6.jpg"
             alt="le salama 2"
@@ -47,7 +47,7 @@ const About = () => {
             className="rounded-lg"
           />
         </div>
-        <div className="absolute bottom-1 left-4  shadow-lg shadow-primary_9 rounded-lg z-30 hover:scale-105 transition-all ease-linear">
+        <div className="absolute bottom-1 left-4  shadow-md rounded-lg z-30 hover:scale-105 transition-all ease-linear">
           <Image
             src="/assets/images/lesalama_7.jpg"
             alt="le salama 2"

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "var(--brown-100)", // Replace with your primary color
+        primary_tr: "var(--brown-trensparant)",
         primary_9: "var(--brown-90)",
         primary_8: "var(--brown-80)",
         primary_7: "var(--brown-70)",

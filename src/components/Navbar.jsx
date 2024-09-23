@@ -39,11 +39,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300  ${
-        navbarSolid
-          ? "bg-primary shadow-lg"
-          : "bg-transparent shadow-sm shadow-primary_5"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-primary_tr `}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between md:justify-evenly items-center">
         <div className="text-xl font-bold">
