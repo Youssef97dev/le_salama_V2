@@ -24,8 +24,6 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </head>
       <body className={`${helv.variable} ${helvThin.variable} `}>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>AOS.init();</script>
         {children}
       </body>
     </html>
