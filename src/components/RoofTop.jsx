@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const RoofTop = () => {
   return (
-    <div className=" w-full h-[70vh] flex flex-col md:flex-row items-center align-middle justify-center gap-3 bg-white px-10">
-      <div className="w-full " data-aos="fade-right">
+    <div className=" w-full h-fit lg:h-[70vh] xl:h-fit  flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-3 bg-white py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
+      <div className="w-full " data-aos="zoom-in">
         <Image
           src="/assets/images/lesalama_9.jpg"
           alt="le salama 9"
           width={1500}
           height={1500}
-          className="rounded-lg hover:scale-105 transition-all ease-linear"
+          className="rounded-lg hover:scale-105 transition-all ease-linear w-full "
         />
       </div>
-      <div className="w-full flex flex-col gap-2 p-3" data-aos="fade-left">
+      <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
         <div className="text-4xl font-semibold pb-4">Le Salama Rooftop</div>
         <p className="font-medium text-sm leading-7 text-gray-500 pb-3">
           Elevate your dining experience at Le Salama, where our stunning

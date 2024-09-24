@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center gap-9 py-16 px-64">
-      <div className="w-full flex flex-col gap-2 p-3" data-aos="fade-right">
+    <div className="flex flex-col lg:flex-row justify-center gap-9 py-2 lg:py-16 px-3 lg:px-10 2xl:px-64">
+      <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
         <div className="font-bold italic text-primary_8">
           Moroccan Soul Food
         </div>
@@ -37,23 +37,26 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-full relative" data-aos="fade-left">
-        <div className="absolute top-1 right-4 shadow-md  rounded-lg hover:scale-105 transition-all ease-linear">
+      <div
+        className="w-full space-y-4 lg:space-y-0 static lg:relative"
+        data-aos="zoom-in"
+      >
+        <div className="w-full xl:w-auto static lg:absolute lg:top-6 lg:right-4 shadow-md  rounded-lg hover:scale-105 transition-all ease-linear">
           <Image
             src="/assets/images/lesalama_6.jpg"
             alt="le salama 2"
             width={400}
             height={400}
-            className="rounded-lg"
+            className="rounded-lg w-full object-cover"
           />
         </div>
-        <div className="absolute bottom-1 left-4  shadow-md rounded-lg z-30 hover:scale-105 transition-all ease-linear">
+        <div className="w-full xl:w-auto static lg:absolute lg:bottom-6 lg:left-4  shadow-md rounded-lg z-30 hover:scale-105 transition-all ease-linear">
           <Image
             src="/assets/images/lesalama_7.jpg"
             alt="le salama 2"
             width={400}
             height={400}
-            className="rounded-lg"
+            className="rounded-lg w-full object-cover"
           />
         </div>
       </div>

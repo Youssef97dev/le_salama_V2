@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full">
+    <div className="relative h-screen w-full ">
       {/* Video Background */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
@@ -19,7 +19,6 @@ const Hero = () => {
         />
         Your browser does not support the video tag.
       </video>
-
       {/* Hero Content */}
       <div className="absolute bottom-10 left-1/2 animate-bounce text-primary_1 border border-white rounded-full">
         <Link href="#">
