@@ -27,12 +27,12 @@ const RoofTop = () => {
           At Le Salama Rooftop, indulge in a culinary journey that celebrates
           the rich flavors of Moroccan and Mediterranean cuisine.
           <br />
-          Whether you're enjoying a refreshing cocktail or savoring a sumptuous
+          {`Whether you're enjoying a refreshing cocktail or savoring a sumptuous
           dinner under the stars, our carefully crafted menu and inviting
-          atmosphere create an unforgettable backdrop for your special moments.
+          atmosphere create an unforgettable backdrop for your special moments.`}
           <br />
           Experience the charm of Marrakech from the rooftop of Le Salama, where
-          every visit promises to be memorable.
+          every visit promises to be memorable.
         </p>
       </div>
     </div>
