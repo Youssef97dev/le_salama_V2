@@ -38,25 +38,25 @@ const About = () => {
         </div>
       </div>
       <div
-        className="w-full space-y-4 lg:space-y-0 static lg:relative"
+        className="w-full space-y-4 md:space-y-0 static lg:relative flex flex-col sm:flex-row lg:block"
         data-aos="zoom-in"
       >
-        <div className="w-full xl:w-auto static lg:absolute lg:top-6 lg:right-4 shadow-md  rounded-lg hover:scale-105 transition-all ease-linear">
+        <div className="w-fit lg:w-auto static lg:absolute lg:top-1 lg:right-4 shadow-md  rounded-lg hover:scale-105 transition-all ease-linear">
           <Image
             src="/assets/images/lesalama_6.jpg"
             alt="le salama 2"
             width={400}
             height={400}
-            className="rounded-lg w-full object-cover"
+            className="rounded-lg "
           />
         </div>
-        <div className="w-full xl:w-auto static lg:absolute lg:bottom-6 lg:left-4  shadow-md rounded-lg z-30 hover:scale-105 transition-all ease-linear">
+        <div className="w-fit lg:w-auto static lg:absolute lg:bottom-1 lg:left-4  shadow-md rounded-lg z-30 hover:scale-105 transition-all ease-linear">
           <Image
             src="/assets/images/lesalama_7.jpg"
             alt="le salama 2"
             width={400}
             height={400}
-            className="rounded-lg w-full object-cover"
+            className="rounded-lg "
           />
         </div>
       </div>
