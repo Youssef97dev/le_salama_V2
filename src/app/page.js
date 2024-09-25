@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import RoofTop from "@/components/RoofTop";
+import Events from "@/components/Events";
 
 export default function Home() {
   useEffect(() => {
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <About />
       <RoofTop />
+      <Events />
       <div className="flex flex-col h-[200vh]"></div>
     </div>
   );

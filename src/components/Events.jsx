@@ -1,0 +1,75 @@
+import { useState } from "react";
+
+const data = [
+  {
+    id: 0,
+    title: "Bellydance Show every evening at 10:00 PM",
+    imageUrl: "/assets/images/salama_11.jpg",
+    text: "At Le Salama in Marrakech, each evening comes alive with the captivating rhythms and vibrant energy of a traditional belly dance show. Guests are treated to an unforgettable cultural experience as skilled performers showcase mesmerizing dance moves against the backdrop of our stunning rooftop setting.",
+  },
+  {
+    id: 1,
+    title: "Enjoy our Happy Hour Specials",
+    imageUrl: "/assets/images/salama_13.jpg",
+    text: "Join us at Le Salama for our Happy Hour specials, where you can enjoy refreshing cocktails and drinks at discounted prices. Unwind in our cozy atmosphere as you sip on your favorite beverages and soak in the vibrant energy of Marrakech.",
+  },
+  {
+    id: 2,
+    title: "Experience the magic of breathtaking sunset views",
+    imageUrl: "/assets/images/salama_12.jpg",
+    text: "At Le Salama, you can experience the magic of breathtaking sunset views that paint the Marrakech skyline in stunning hues of gold and crimson. As the sun sets behind the city, our rooftop offers a serene and picturesque backdrop, perfect for a romantic evening or a relaxing dinner.",
+  },
+];
+
+const Events = () => {
+  return (
+    <div className=" lg:h-[55vh] h-fit bg-[#1b1b1b] flex flex-col space-y-5 items-center py-10 px-28">
+      {/* Parallax Background 
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-fixed z-0"
+        style={{ backgroundImage: 'url("/assets/images/lesalama_8.jpg")' }}
+      ></div>*/}
+
+      {/* Overlay 
+      <div className="absolute inset-0 bg-black opacity-50 z-10"></div>*/}
+
+      {/* Content */}
+      <span className="font-bold italic text-primary_5">
+        Le Salama Restaurant
+      </span>
+      <span className="text-4xl text-white font-semibold">
+        Le Salama Events
+      </span>
+      <div className="flex flex-col lg:flex-row gap-10">
+        {data.map((item) => (
+          <div key={item.id} className="container_card">
+            <div className="card ">
+              <div className="front">
+                <div className="absolute inset-0 bg-black opacity-20 "></div>
+                <div className="absolute bottom-0 left-0 w-full h-1/4 text-white flex justify-center items-center px-5">
+                  <span className="text-xl font-medium text-center">
+                    {item.title}
+                  </span>
+                </div>
+
+                <img src={item.imageUrl} className="w-full h-full" />
+              </div>
+              <div className="back">
+                <div className="absolute top-0 left-0 w-full  text-black flex flex-col justify-center items-center px-5 py-8 gap-5">
+                  <span className="text-xl font-semibold text-center">
+                    {item.title}
+                  </span>
+                  <p className="font-medium text-sm leading-7 text-center text-gray-500">
+                    {item.text}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Events;

@@ -4,7 +4,7 @@
 
 :root {
   --brown-100: #8b5330;
-  --brown-trensparant: #8b5330b4;
+  --brown-trensparant: #8b53308f;
   --brown-90: #95613f;
   --brown-80: #a06f4f;
   --brown-70: #ab7f61;
@@ -52,4 +52,51 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--brown-100);
+}
+
+.container_card {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  margin-top: 30px;
+  perspective: 600px;
+}
+
+.card {
+  height: 450px;
+  width: 340px;
+  position: relative;
+  transition: transform 1000ms;
+  transform-style: preserve-3d;
+}
+
+/* Set the initial rotation to show the front face */
+.front {
+  transform: rotateY(0);
+}
+
+/* Rotate the card on hover to show the back face */
+.container_card:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+  position: absolute;
+  backface-visibility: hidden; /* Hide the back face when not visible */
+}
+
+.front {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.back {
+  background-color: #fff;
+  transform: rotateY(180deg);
 }

@@ -20,6 +20,16 @@ module.exports = {
         primary_2: "var(--brown-20)",
         primary_1: "var(--brown-10)",
       },
+      perspective: {
+        300: "300px",
+      },
+      transformStyle: {
+        "3d": "preserve-3d",
+      },
+      rotate: {
+        "y-180": "rotateY(180deg)",
+      },
+      backfaceVisibility: ["hidden"],
     },
   },
   plugins: [],
