@@ -25,7 +25,7 @@ const About = () => {
           the evening. And there’s more to discover! Come and explore the
           secrets this fascinating place hides.
         </p>
-        <div className="flex justify-between items-center w-fit gap-2 text-primary_8">
+        <div className="flex justify-between items-center w-fit gap-2 text-primary_8 mt-auto">
           <PiCalendarBlankFill size={55} />
           <div className="flex flex-col ">
             <span className="text-lg font-semibold">Reservation</span>
@@ -35,40 +35,21 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/*<div
-        className="w-full space-y-4 md:space-y-0 static lg:relative flex flex-col sm:flex-row lg:block"
+
+      <div
+        className="w-full flex flex-col md:flex-row gap-8 items-center"
         data-aos="zoom-in"
       >
-        <div className="w-fit lg:w-auto static lg:absolute lg:top-1 lg:right-4 shadow-md  rounded-lg hover:scale-105 transition-all ease-linear">
+        <div className="w-full md:h-[90%] h-full md:self-end self-auto">
           <Image
-            src="/assets/images/lesalama_6.jpg"
-            alt="le salama 2"
-            width={400}
-            height={400}
-            className="rounded-lg "
-          />
-        </div>
-        <div className="w-fit lg:w-auto static lg:absolute lg:bottom-1 lg:left-4  shadow-md rounded-lg z-30 hover:scale-105 transition-all ease-linear">
-          <Image
-            src="/assets/images/lesalama_7.jpg"
-            alt="le salama 2"
-            width={400}
-            height={400}
-            className="rounded-lg "
-          />
-        </div>
-      </div>*/}
-      <div className="w-full flex flex-col md:flex-row gap-8 items-center">
-        <div className="w-full md:h-[90%] h-full md:self-start self-auto">
-          <Image
-            src="/assets/images/lesalama_1.jpg"
+            src="/assets/images/salama_16.jpg"
             alt="le salama 2"
             width={400}
             height={400}
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="w-full md:h-[90%] h-full md:self-end self-auto">
+        <div className="w-full md:h-[90%] h-full md:self-start self-auto">
           <Image
             src="/assets/images/salama_15.jpg"
             alt="le salama 2"

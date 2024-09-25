@@ -68,17 +68,23 @@ const Navbar = () => {
           <Link href="#">Contact</Link>
         </div>
         <div className="hidden md:flex space-x-6 text-primary_1">
-          <Link href="#">
+          <Link
+            href="https://www.instagram.com/lesalamamarrakech/"
+            target="_blank"
+          >
             <BsInstagram />
           </Link>
-          <Link href="#">
+          <Link
+            href="https://www.facebook.com/lesalamamarrakech/"
+            target="_blank"
+          >
             <BsFacebook />
           </Link>
-          <Link href="#">
+          <Link
+            href="https://www.pinterest.com/lesalamamarrakech/"
+            target="_blank"
+          >
             <BsPinterest />
-          </Link>
-          <Link href="#">
-            <BsYoutube />
           </Link>
         </div>
         <div className="md:hidden">

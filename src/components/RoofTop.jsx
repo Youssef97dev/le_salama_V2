@@ -19,9 +19,7 @@ const RoofTop = () => {
         className="w-full flex flex-col gap-2 text-center"
         data-aos="zoom-in"
       >
-        <div className="text-5xl font-thin pb-4 text-primary">
-          Le Salama Rooftop
-        </div>
+        <div className="text-5xl font-thin pb-4 text-primary">Rooftop</div>
         <p className="font-medium text-base  text-gray-500 pb-3">
           Elevate your dining experience at Le Salama, where our stunning
           rooftop offers breathtaking views of Marrakech and the majestic Atlas
