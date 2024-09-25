@@ -3,13 +3,11 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center gap-9 py-2 lg:py-16 px-3 lg:px-10 2xl:px-64">
+    <div className="flex flex-col lg:flex-row justify-center gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28">
       <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
-        <div className="font-bold italic text-primary_8">
-          Moroccan Soul Food
-        </div>
-        <div className="text-4xl font-semibold pb-4">Restaurant Le Salama</div>
-        <p className="font-medium text-sm leading-7 text-gray-500 pb-3">
+        <div className="text-lg italic text-primary_8">Moroccan Soul Food</div>
+        <div className="text-5xl text-primary  pb-4">Restaurant Le Salama</div>
+        <p className="font-medium text-base text-gray-500 pb-3">
           Located in the heart of Djema el Fna square, it’s a cozy place to
           enjoy a drink after a shopping spree in the souks!
           <br />
@@ -30,14 +28,14 @@ const About = () => {
         <div className="flex justify-between items-center w-fit gap-2 text-primary_8">
           <PiCalendarBlankFill size={55} />
           <div className="flex flex-col ">
-            <span className="uppercase font-semibold">Reservation</span>
-            <span className="text-black font-medium text-xl">
+            <span className="text-lg font-semibold">Reservation</span>
+            <span className="text-black font-semibold text-2xl">
               +212 675-480018
             </span>
           </div>
         </div>
       </div>
-      <div
+      {/*<div
         className="w-full space-y-4 md:space-y-0 static lg:relative flex flex-col sm:flex-row lg:block"
         data-aos="zoom-in"
       >
@@ -57,6 +55,26 @@ const About = () => {
             width={400}
             height={400}
             className="rounded-lg "
+          />
+        </div>
+      </div>*/}
+      <div className="w-full flex flex-col md:flex-row gap-8 items-center">
+        <div className="w-full md:h-[90%] h-full md:self-start self-auto">
+          <Image
+            src="/assets/images/lesalama_1.jpg"
+            alt="le salama 2"
+            width={400}
+            height={400}
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <div className="w-full md:h-[90%] h-full md:self-end self-auto">
+          <Image
+            src="/assets/images/salama_15.jpg"
+            alt="le salama 2"
+            width={400}
+            height={400}
+            className="object-cover w-full h-full"
           />
         </div>
       </div>

@@ -2,19 +2,27 @@ import Image from "next/image";
 
 const RoofTop = () => {
   return (
-    <div className=" w-full h-fit lg:h-[70vh] xl:h-fit  flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-3 bg-white py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
-      <div className="w-full " data-aos="zoom-in">
-        <Image
-          src="/assets/images/lesalama_9.jpg"
-          alt="le salama 9"
-          width={1500}
-          height={1500}
-          className="rounded-lg hover:scale-105 transition-all ease-linear w-full "
-        />
+    <div className=" w-full h-fit flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14 bg-white py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
+      <div className="w-full" data-aos="zoom-in">
+        <video
+          className="w-full h-[600px] object-cover hover:scale-105 transition-all ease-linear"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/assets/videos/rooftop.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
-      <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
-        <div className="text-4xl font-semibold pb-4">Le Salama Rooftop</div>
-        <p className="font-medium text-sm leading-7 text-gray-500 pb-3">
+      <div
+        className="w-full flex flex-col gap-2 text-center"
+        data-aos="zoom-in"
+      >
+        <div className="text-5xl font-thin pb-4 text-primary">
+          Le Salama Rooftop
+        </div>
+        <p className="font-medium text-base  text-gray-500 pb-3">
           Elevate your dining experience at Le Salama, where our stunning
           rooftop offers breathtaking views of Marrakech and the majestic Atlas
           Mountains. Nestled in a vibrant urban garden, the rooftop features
@@ -34,6 +42,15 @@ const RoofTop = () => {
           Experience the charm of Marrakech from the rooftop of Le Salama, where
           every visit promises to be memorable.
         </p>
+      </div>
+      <div className="w-full " data-aos="zoom-in">
+        <Image
+          src="/assets/images/salama_14.jpg"
+          alt="le salama 9"
+          width={1200}
+          height={1500}
+          className="w-full h-[600px] hover:scale-105  transition-all ease-linear"
+        />
       </div>
     </div>
   );

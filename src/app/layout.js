@@ -12,6 +12,30 @@ const helvThin = localFont({
   weight: "100 900",
 });
 
+const garamondBold = localFont({
+  src: "./fonts/AGaramondPro-Bold.woff",
+  variable: "--font-garamond-bold",
+  weight: "100 900",
+});
+
+const garamondBoldItalic = localFont({
+  src: "./fonts/AGaramondPro-BoldItalic.woff",
+  variable: "--font-garamond-bold-italic",
+  weight: "100 900",
+});
+
+const garamondItalic = localFont({
+  src: "./fonts/AGaramondPro-Italic.woff",
+  variable: "--font-garamond-italic",
+  weight: "100 900",
+});
+
+const garamondRegular = localFont({
+  src: "./fonts/AGaramondPro-Regular.woff",
+  variable: "--font-garamond-regular",
+  weight: "100 900",
+});
+
 export const metadata = {
   title: "Le Salama",
   description: "Moroccan soul food",
@@ -23,7 +47,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </head>
-      <body className={`${helv.variable} ${helvThin.variable} `}>
+      <body className={`${garamondBold.variable} ${garamondItalic.variable}  `}>
         {children}
       </body>
     </html>

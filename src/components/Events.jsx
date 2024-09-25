@@ -23,18 +23,18 @@ const data = [
 
 const Events = () => {
   return (
-    <div className=" lg:h-[55vh] h-fit bg-[#1b1b1b] flex flex-col space-y-5 items-center py-10 px-28">
+    <div className="relative h-fit  flex flex-col space-y-5 items-center py-10 px-28">
       {/* Parallax Background 
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed z-0"
         style={{ backgroundImage: 'url("/assets/images/lesalama_8.jpg")' }}
       ></div>*/}
 
-      {/* Overlay 
-      <div className="absolute inset-0 bg-black opacity-50 z-10"></div>*/}
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-[#1b1b1b] h-full lg:h-[65%] z-[-1]"></div>
 
       {/* Content */}
-      <span className="font-bold italic text-primary_5">
+      <span className="font-bold italic text-lg text-primary_5">
         Le Salama Restaurant
       </span>
       <span className="text-4xl text-white font-semibold">
@@ -47,7 +47,7 @@ const Events = () => {
               <div className="front">
                 <div className="absolute inset-0 bg-black opacity-20 "></div>
                 <div className="absolute bottom-0 left-0 w-full h-1/4 text-white flex justify-center items-center px-5">
-                  <span className="text-xl font-medium text-center">
+                  <span className="text-2xl font-medium text-center">
                     {item.title}
                   </span>
                 </div>
@@ -56,10 +56,10 @@ const Events = () => {
               </div>
               <div className="back">
                 <div className="absolute top-0 left-0 w-full  text-black flex flex-col justify-center items-center px-5 py-8 gap-5">
-                  <span className="text-xl font-semibold text-center">
+                  <span className="text-2xl font-semibold text-center">
                     {item.title}
                   </span>
-                  <p className="font-medium text-sm leading-7 text-center text-gray-500">
+                  <p className="font-medium text-base leading-8 text-center text-gray-500">
                     {item.text}
                   </p>
                 </div>

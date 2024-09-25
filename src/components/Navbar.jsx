@@ -19,27 +19,34 @@ import { IoBookOutline } from "react-icons/io5";
 import { FaRegCalendarCheck } from "react-icons/fa6";
 
 const Navbar = () => {
-  const [navbarSolid, setNavbarSolid] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setNavbarSolid(true);
+      const currentScrollPos = window.pageYOffset;
+
+      // Check if scrolling up or down
+      if (currentScrollPos > prevScrollPos && currentScrollPos > 100) {
+        setVisible(false); // Hide navbar on scroll down
       } else {
-        setNavbarSolid(false);
+        setVisible(true); // Show navbar on scroll up
       }
+
+      setPrevScrollPos(currentScrollPos);
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-primary_tr `}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-primary_tr ${
+        visible ? "translate-y-0" : "-translate-y-full"
+      } `}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between md:justify-evenly items-center">
         <div className="text-xl font-bold">
@@ -53,7 +60,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="hidden md:flex space-x-6 uppercase text-sm font-medium text-primary_1">
+        <div className="hidden md:flex space-x-6  text-base font-medium text-primary_1">
           <Link href="/">Accueil</Link>
           <Link href="#">Menu</Link>
           <Link href="#">À propos de nous</Link>
