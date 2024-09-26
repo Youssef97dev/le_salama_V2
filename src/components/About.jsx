@@ -5,8 +5,12 @@ const About = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-center gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28">
       <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
-        <div className="text-lg italic text-primary_8">Moroccan Soul Food</div>
-        <div className="text-5xl text-primary  pb-4">Restaurant Le Salama</div>
+        <div className="lg:text-lg text-base italic text-primary_8">
+          Moroccan Soul Food
+        </div>
+        <div className="lg:text-5xl text-2xl text-primary  pb-4">
+          Restaurant Le Salama
+        </div>
         <p className="font-medium text-base text-gray-700 mb-10 lg:mb-16">
           Located in the heart of Djema el Fna square, it’s a cozy place to
           enjoy a drink after a shopping spree in the souks!
@@ -29,7 +33,7 @@ const About = () => {
           <PiCalendarBlankFill size={55} />
           <div className="flex flex-col ">
             <span className="text-lg font-semibold">Reservation</span>
-            <span className="text-black font-semibold text-2xl">
+            <span className="text-black font-semibold text-lg lg:text-2xl">
               +212 675-480018
             </span>
           </div>
@@ -37,10 +41,9 @@ const About = () => {
       </div>
 
       <div
-        className="w-full flex flex-col md:flex-row gap-8 items-center"
-        data-aos="zoom-in"
+        className="w-full flex gap-8 items-center" //data-aos="zoom-in"
       >
-        <div className="w-full md:h-[90%] h-full md:self-end self-auto">
+        <div className="w-full h-[90%]  self-end ">
           <Image
             src="/assets/images/salama_16.jpg"
             alt="le salama 2"
@@ -49,7 +52,7 @@ const About = () => {
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="w-full md:h-[90%] h-full md:self-start self-auto">
+        <div className="w-full h-[90%] self-start ">
           <Image
             src="/assets/images/salama_15.jpg"
             alt="le salama 2"
