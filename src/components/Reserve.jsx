@@ -50,7 +50,7 @@ const reviews = [
 const Reserve = () => {
   return (
     <div
-      className="w-full h-[75vh] relative bg-fixed bg-cover bg-center flex flex-col lg:flex-row items-start justify-between gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
+      className="w-full h-fit relative bg-fixed bg-cover bg-center flex flex-col lg:flex-row items-center justify-between gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
       style={{ backgroundImage: "url('/assets/images/lesalama_6.jpg')" }}
     >
       <div className="absolute inset-0 bg-[#000000] h-full opacity-70"></div>
@@ -62,7 +62,7 @@ const Reserve = () => {
             prevEl: ".swiper-button-prev-ex2",
           }}
           autoplay={{ delay: 2000 }}
-          className="swiper max-w-3xl mx-auto mb-5"
+          className="swiper max-w-xl mx-auto mb-5"
           id="slider2"
           key={"true"}
         >
@@ -90,8 +90,8 @@ const Reserve = () => {
           </div>
         </Swiper>
       </div>
-      <div className="z-10 text-white w-full h-full flex justify-center rounded-sm">
-        <div className="w-3/5 h-full bg-[#1b1b1b] flex flex-col justify-start items-center gap-4 px-5 py-9 rounded-sm text-center">
+      <div className="z-10 text-white w-full h-full flex justify-center rounded-sm ">
+        <div className="w-full md:w-3/5 lg:w-4/5 xl:w-3/5  h-full bg-[#1b1b1b] flex flex-col justify-start items-center gap-4 px-5 py-9 rounded-sm text-center">
           <span className=" text-4xl">{`Chef's Special Menu`}</span>
           <div className="border-b border-[#ffffff34] w-5/6"></div>
           <span className="text-xl mb-5">Signature Dishes</span>
