@@ -47,7 +47,9 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </head>
-      <body className={`${garamondBold.variable} ${garamondItalic.variable}  `}>
+      <body
+        className={`${garamondBold.variable} ${garamondRegular.variable}  `}
+      >
         {children}
       </body>
     </html>

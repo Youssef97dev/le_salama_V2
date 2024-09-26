@@ -18,7 +18,7 @@
 
 body {
   background-color: var(--brown-10);
-  font-family: "AGaramondPro-Bold", serif;
+  font-family: "AGaramondPro-Bold", "AGaramondPro-Regular", serif;
 }
 
 /* scroll bar */
