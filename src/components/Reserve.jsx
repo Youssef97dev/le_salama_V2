@@ -77,9 +77,7 @@ const Reserve = () => {
                         initialValue={item.stars}
                         size={18}
                       />
-                      <p className="italic text-white text-sm">
-                        {item.comments}
-                      </p>
+                      <p className="italic text-white">{item.comments}</p>
                     </div>
                     <div className="flex flex-col gap-2">
                       <span className="text-primary_7">{item.platform}</span>

@@ -7,7 +7,7 @@ const About = () => {
       <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
         <div className="text-lg italic text-primary_8">Moroccan Soul Food</div>
         <div className="text-5xl text-primary  pb-4">Restaurant Le Salama</div>
-        <p className="font-medium text-base text-gray-500 pb-3">
+        <p className="font-medium text-base text-gray-700 mb-10 lg:mb-16">
           Located in the heart of Djema el Fna square, it’s a cozy place to
           enjoy a drink after a shopping spree in the souks!
           <br />
@@ -25,7 +25,7 @@ const About = () => {
           the evening. And there’s more to discover! Come and explore the
           secrets this fascinating place hides.
         </p>
-        <div className="flex justify-between items-center w-fit gap-2 text-primary_8 mt-auto">
+        <div className="flex justify-between items-center w-fit gap-2 text-primary_8">
           <PiCalendarBlankFill size={55} />
           <div className="flex flex-col ">
             <span className="text-lg font-semibold">Reservation</span>
