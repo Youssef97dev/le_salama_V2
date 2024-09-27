@@ -91,7 +91,7 @@ const Reserve = () => {
         </Swiper>
       </div>
       <div className="z-10 text-white w-full h-full flex justify-center rounded-sm ">
-        <div className="w-full md:w-3/5 lg:w-4/5 xl:w-3/5  h-full bg-[#1b1b1b] flex flex-col justify-start items-center gap-4 px-5 py-9 rounded-sm text-center">
+        <div className="w-full md:w-3/5 lg:w-4/5 xl:w-3/5  h-full bg-[#000000] flex flex-col justify-start items-center gap-4 px-5 py-9 rounded-sm text-center">
           <span className=" text-4xl">{`Chef's Special Menu`}</span>
           <div className="border-b border-[#ffffff34] w-5/6"></div>
           <span className="text-xl mb-5">Signature Dishes</span>

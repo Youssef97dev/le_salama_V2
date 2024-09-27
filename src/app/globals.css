@@ -4,7 +4,7 @@
 
 :root {
   --brown-100: #8b5330;
-  --brown-trensparant: #0000008f;
+  --brown-trensparant: #0000002a;
   --brown-90: #95613f;
   --brown-80: #a06f4f;
   --brown-70: #ab7f61;
@@ -14,6 +14,17 @@
   --brown-30: #d8c4b5;
   --brown-20: #e5d7cd;
   --brown-10: #f2ebe6;
+
+  --blue-100: #11978b;
+  --blue-90: #2a9a8e;
+  --blue-80: #48a096;
+  --blue-70: #63a9a0;
+  --blue-60: #7cb3ab;
+  --blue-50: #94beb8;
+  --blue-40: #abcac6;
+  --blue-30: #c0d7d4;
+  --blue-20: #d5e4e2;
+  --blue-10: #e9f1f0;
 }
 
 body {

@@ -31,10 +31,10 @@ const Events = () => {
       ></div>*/}
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#1b1b1b] h-full lg:h-[65%] z-[-1]"></div>
+      <div className="absolute inset-0 bg-[#000000] h-full lg:h-[65%] z-[-1]"></div>
 
       {/* Content */}
-      <span className="italic text-lg text-primary_5">Discover our Events</span>
+      <span className="italic text-lg text-primary_5">Discover our</span>
       <span className="text-5xl text-white">Events</span>
       <div className="flex flex-col lg:flex-row gap-10">
         {data.map((item) => (

@@ -8,13 +8,19 @@ import RoofTop from "@/components/RoofTop";
 import Events from "@/components/Events";
 import Reserve from "@/components/Reserve";
 
+import dynamic from "next/dynamic";
+
+const NavbarMiddle = dynamic(() => import("@/components/NavbarMiddle"), {
+  ssr: false,
+});
+
 export default function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div className="flex flex-col w-full">
-      <Navbar />
+    <div>
+      <NavbarMiddle />
       <Hero />
       <About />
       <RoofTop />
