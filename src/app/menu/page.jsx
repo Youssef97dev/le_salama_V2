@@ -10,7 +10,7 @@ const NavbarMiddle = dynamic(() => import("@/components/NavbarMiddle"), {
 
 const page = () => {
   return (
-    <div className=" !bg-gradient-to-b from-secondary_1 to-secondary_5">
+    <div className="">
       <NavbarMiddle />
       <Hero />
       <Menu />

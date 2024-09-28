@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const images = [
-  "/assets/images/plats/plat1.png",
+  "/assets/images/plats/plat1.jpg",
   "/assets/images/plats/plat2.jpg",
   "/assets/images/plats/plat3.jpg",
   "/assets/images/plats/plat4.jpg",
