@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="relative h-screen w-full ">
       {/* Video Background */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-full object-cover hidden md:block"
         autoPlay
         loop
         muted
@@ -17,6 +17,17 @@ const Hero = () => {
           src="https://res.cloudinary.com/dz7wroord/video/upload/v1724499876/zhukhjwdelkkkftxpil5.mp4"
           type="video/mp4"
         />
+        Your browser does not support the video tag.
+      </video>
+
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover block md:hidden"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/assets/videos/lesalama.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-20"></div>
