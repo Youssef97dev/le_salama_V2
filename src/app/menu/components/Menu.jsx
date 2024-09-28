@@ -1,5 +1,6 @@
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/react";
 import { Fragment } from "react";
+import Gallery from "./Gallery";
 
 import { GrRestaurant } from "react-icons/gr";
 import { BiDrink } from "react-icons/bi";
@@ -118,7 +119,7 @@ const menuItemsWine = [
 
 const Menu = () => {
   return (
-    <div className="mx-3 md:mx-16 xl:mx-60">
+    <div className="mx-3 md:mx-16 xl:mx-60 flex flex-col justify-center items-center">
       <TabGroup>
         <TabList className="mt-16 mb-5 flex flex-wrap justify-center">
           <Tab as={Fragment}>
@@ -233,6 +234,7 @@ const Menu = () => {
           </TabPanel>
         </TabPanels>
       </TabGroup>
+      <Gallery />
     </div>
   );
 };

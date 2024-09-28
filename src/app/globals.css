@@ -112,3 +112,31 @@ body {
   background-color: #fff;
   transform: rotateY(180deg);
 }
+
+.masonry {
+  column-count: 2;
+  column-gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry {
+    column-count: 5;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
