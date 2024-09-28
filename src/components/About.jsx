@@ -54,7 +54,7 @@ const About = () => {
         </div>
         <div className="w-full h-[90%] self-start ">
           <Image
-            src="/assets/images/lesalama_3.jpeg"
+            src="/assets/images/salama_17.jpg"
             alt="le salama 2"
             width={400}
             height={400}

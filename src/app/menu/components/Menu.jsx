@@ -5,6 +5,9 @@ import Gallery from "./Gallery";
 import { GrRestaurant } from "react-icons/gr";
 import { BiDrink } from "react-icons/bi";
 import { PiWineFill } from "react-icons/pi";
+import { IoRestaurantOutline } from "react-icons/io5";
+import Link from "next/link";
+import Image from "next/image";
 
 const menuItemsMain = [
   { name: "Moroccan Soup", description: "", price: "90 MAD" },
@@ -119,7 +122,7 @@ const menuItemsWine = [
 
 const Menu = () => {
   return (
-    <div className="mx-3 md:mx-16 xl:mx-60 flex flex-col justify-center items-center">
+    <div className="relative mx-3 md:mx-16 xl:mx-60 flex flex-col justify-center items-center">
       <TabGroup>
         <TabList className="mt-16 mb-5 flex flex-wrap justify-center">
           <Tab as={Fragment}>
@@ -235,6 +238,16 @@ const Menu = () => {
         </TabPanels>
       </TabGroup>
       <Gallery />
+      <div className="fixed bottom-4 right-6 cursor-pointer  hover:scale-105 transition-all ease-in-out animate-bounce">
+        <Link href="https://www.lesalamamarrakech.com/menu/" target="_blank">
+          <Image
+            src="/assets/images/iconmenu.png"
+            height={70}
+            width={70}
+            className="w-14 h-14 md:h-20 md:w-20"
+          />
+        </Link>
+      </div>
     </div>
   );
 };

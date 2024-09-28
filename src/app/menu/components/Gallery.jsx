@@ -14,6 +14,13 @@ const images = [
   "/assets/images/plats/plat11.jpg",
   "/assets/images/plats/plat12.jpg",
   "/assets/images/plats/plat13.jpg",
+  "/assets/images/plats/plat14.jpg",
+  "/assets/images/plats/plat15.jpg",
+  "/assets/images/plats/plat16.jpg",
+  "/assets/images/salama_15.jpg",
+  "/assets/images/lesalama_10.jpg",
+  "/assets/images/lesalama_9.jpg",
+  "/assets/images/lesalama_7.jpg",
   // Add paths to your images here
 ];
 
@@ -32,7 +39,7 @@ const Gallery = () => {
               layout="responsive"
               width={300}
               height={300}
-              className=""
+              className="rounded-sm"
             />
           </div>
         ))}
