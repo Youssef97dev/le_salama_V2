@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +12,7 @@ import {
   BsYoutube,
 } from "react-icons/bs";
 import { TbMenu2 } from "react-icons/tb";
-import { FaHome } from "react-icons/fa";
+import { FaHome, FaTripadvisor } from "react-icons/fa";
 import { MdRestaurantMenu } from "react-icons/md";
 import { GrGallery } from "react-icons/gr";
 import { RiContactsBook3Line } from "react-icons/ri";
@@ -78,7 +80,7 @@ const NavbarMiddle = () => {
               )}
             </Link>
 
-            <Link href="#" className="relative group">
+            <Link href="/about" className="relative group">
               À propos de nous{" "}
               {isActive("/about") ? (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-100 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-100"></span>
@@ -122,6 +124,12 @@ const NavbarMiddle = () => {
             >
               <BsPinterest size={18} />
             </Link>
+            <Link
+              href="https://www.tripadvisor.fr/Restaurant_Review-g293734-d2446537-Reviews-Le_Salama_Moroccan_Soul_Food-Marrakech_Marrakech_Safi.html"
+              target="_blank"
+            >
+              <FaTripadvisor size={20} />
+            </Link>
           </div>
         </div>
         <div className="md:hidden">
@@ -144,11 +152,11 @@ const NavbarMiddle = () => {
             <FaHome />
             <span>Accueil</span>
           </Link>
-          <Link href="#" className="flex items-center space-x-2">
+          <Link href="/menu" className="flex items-center space-x-2">
             <MdRestaurantMenu />
             <span>Menu</span>
           </Link>
-          <Link href="#" className="flex items-center space-x-2">
+          <Link href="/about" className="flex items-center space-x-2">
             <IoBookOutline />
             <span>À propos de nous</span>
           </Link>

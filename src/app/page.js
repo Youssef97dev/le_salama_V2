@@ -1,12 +1,12 @@
 "use client";
 import { useEffect } from "react";
 import AOS from "aos";
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import RoofTop from "@/components/RoofTop";
 import Events from "@/components/Events";
 import Reserve from "@/components/Reserve";
+import Footer from "@/components/Footer";
 
 import dynamic from "next/dynamic";
 
@@ -27,6 +27,7 @@ export default function Home() {
       <Reserve />
       <Events />
       <div className="flex flex-col h-[200vh]"></div>
+      <Footer />
     </div>
   );
 }

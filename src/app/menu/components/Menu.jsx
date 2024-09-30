@@ -122,7 +122,7 @@ const menuItemsWine = [
 
 const Menu = () => {
   return (
-    <div className="relative mx-3 md:mx-16 xl:mx-60 flex flex-col justify-center items-center">
+    <div className="relative my-3 mx-3 md:mx-16 xl:mx-60 flex flex-col justify-center items-center">
       <TabGroup>
         <TabList className="mt-16 mb-5 flex flex-wrap justify-center">
           <Tab as={Fragment}>

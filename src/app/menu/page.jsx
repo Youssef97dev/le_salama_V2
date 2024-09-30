@@ -1,7 +1,7 @@
 "use client";
-
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
+import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
 
 const NavbarMiddle = dynamic(() => import("@/components/NavbarMiddle"), {
@@ -14,6 +14,7 @@ const page = () => {
       <NavbarMiddle />
       <Hero />
       <Menu />
+      <Footer />
     </div>
   );
 };

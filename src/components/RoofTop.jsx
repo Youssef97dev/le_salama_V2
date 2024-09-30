@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const RoofTop = () => {
   return (
-    <div className=" w-full h-fit flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14 bg-white py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
+    <div className=" w-full h-fit flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14  py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
       <div className="w-full" data-aos="zoom-in">
         <video
           className="w-full h-[600px] object-cover hover:scale-105 transition-all ease-linear"
