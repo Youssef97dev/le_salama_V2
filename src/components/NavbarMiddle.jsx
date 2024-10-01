@@ -63,16 +63,24 @@ const NavbarMiddle = () => {
         </div>
         <div className="hidden md:flex w-full justify-center items-center space-x-9">
           <div className="hidden md:flex space-x-11 uppercase  text-sm font-bold text-primary_1 justify-center">
-            <Link href="/" className="relative group">
-              Accueil
+            <Link
+              href="/"
+              className="relative group flex items-center space-x-2"
+            >
+              <FaHome size={18} />
+              <span>Home</span>
               {isActive("/") ? (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-100 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-100"></span>
               ) : (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"></span>
               )}
             </Link>
-            <Link href="/menu" className="relative group">
-              Menu
+            <Link
+              href="/menu"
+              className="relative group flex items-center space-x-2"
+            >
+              <MdRestaurantMenu size={18} />
+              <span>Menu</span>
               {isActive("/menu") ? (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-100 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-100"></span>
               ) : (
@@ -80,24 +88,36 @@ const NavbarMiddle = () => {
               )}
             </Link>
 
-            <Link href="/about" className="relative group">
-              À propos de nous{" "}
+            <Link
+              href="/about"
+              className="relative group flex items-center space-x-2"
+            >
+              <IoBookOutline size={18} />
+              <span>About us</span>
               {isActive("/about") ? (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-100 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-100"></span>
               ) : (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"></span>
               )}
             </Link>
-            <Link href="#" className="relative group">
-              Gallery{" "}
+            <Link
+              href="#"
+              className="relative group flex items-center space-x-2"
+            >
+              <GrGallery size={18} />
+              <span>Gallery</span>
               {isActive("/gallery") ? (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-100 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-100"></span>
               ) : (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"></span>
               )}
             </Link>
-            <Link href="#" className="relative group">
-              Contact{" "}
+            <Link
+              href="#"
+              className="relative group flex items-center space-x-2"
+            >
+              <RiContactsBook3Line size={18} />
+              <span>Contact</span>
               {isActive("/contact") ? (
                 <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-100 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-100"></span>
               ) : (
@@ -150,7 +170,7 @@ const NavbarMiddle = () => {
         <div className="flex flex-col p-5 space-y-6 uppercase text-sm font-medium text-primary_9">
           <Link href="/" className="flex items-center space-x-2">
             <FaHome />
-            <span>Accueil</span>
+            <span>Home</span>
           </Link>
           <Link href="/menu" className="flex items-center space-x-2">
             <MdRestaurantMenu />
@@ -158,7 +178,7 @@ const NavbarMiddle = () => {
           </Link>
           <Link href="/about" className="flex items-center space-x-2">
             <IoBookOutline />
-            <span>À propos de nous</span>
+            <span>About us</span>
           </Link>
           <Link href="#" className="flex items-center space-x-2">
             <GrGallery />

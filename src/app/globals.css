@@ -109,7 +109,7 @@ body {
 }
 
 .back {
-  background-color: #fff;
+  background-color: var(--brown-30);
   transform: rotateY(180deg);
 }
 

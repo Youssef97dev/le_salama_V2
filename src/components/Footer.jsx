@@ -26,9 +26,9 @@ const Footer = () => {
           <span className="!text-2xl  font-semibold mb-3  capitalize">
             Links
           </span>
-          <Link href="/">Accueil</Link>
+          <Link href="/">Home</Link>
           <Link href="/menu">Menu</Link>
-          <Link href="/about">À propos de nous</Link>
+          <Link href="/about">About us</Link>
           <Link href="#">Gallery</Link>
           <Link href="#">Contact</Link>
         </div>
