@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[#000] h-full mix-blend-multiply opacity-60"></div>
       {/* Hero Content */}
       <div className="absolute bottom-[45%]   flex w-full justify-center items-center text-primary_1">
-        <span className="text-2xl lg:text-5xl italic text-center px-3 font-semibold">
+        <span className="text-2xl lg:text-6xl italic text-center px-3 font-medium">
           A Taste of Tradition, A Feast of Culture
         </span>
       </div>

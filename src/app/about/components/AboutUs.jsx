@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const content = [
   {
-    imageUrl: "/assets/images/lesalama_7.jpg",
+    imageUrl: "/assets/images/salama_27.jpg",
     title: "Découvrez Le Salama",
     className: "",
     text: `Une escapade culinaire envotante Niché au cœur de la vibrante
@@ -19,7 +19,7 @@ const content = [
         Le Salama promet des moments mémorables.`,
   },
   {
-    imageUrl: "/assets/images/salama_19.jpg",
+    imageUrl: "/assets/images/salama_18.jpg",
     title: "Le Skybar",
     className: "flex-row-reverse",
     text: `Le sky bar, véritable oasis urbain, vous offre une vue panoramique sur les toits de la ville ocre. Dans une ambiance conviviale et détendue, vous pourrez savourer des cocktails innovants, conçus par nos mixologues, tout en admirant le coucher de soleil qui embrase le ciel de Marrakech.`,
@@ -38,7 +38,7 @@ const AboutUs = () => {
       {content.map((item, index) => (
         <div
           key={index}
-          className={`flex justify-between items-start gap-5 w-full ${item.className}`}
+          className={`flex justify-between items-center gap-10 w-full ${item.className}`}
         >
           <div className="w-full">
             <Image
@@ -49,11 +49,11 @@ const AboutUs = () => {
               className="object-cover w-full h-full ml-auto"
             />
           </div>
-          <div className="w-full flex flex-col  gap-3">
+          <div className="w-full flex flex-col gap-3">
             <span className="text-3xl font-medium text-primary ">
               {item.title}
             </span>
-            <p className="text-gray-700 leading-8">{item.text}</p>
+            <p className="text-gray-700 leading-7">{item.text}</p>
           </div>
         </div>
       ))}

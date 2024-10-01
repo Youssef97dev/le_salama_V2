@@ -19,7 +19,7 @@ const RoofTop = () => {
         className="w-full flex flex-col gap-2 text-center"
         data-aos="zoom-in"
       >
-        <div className="lg:text-5xl text-2xl font-thin pb-4 text-white">
+        <div className="lg:text-5xl text-2xl font-normal pb-4 text-primary_2">
           Rooftop Skybar
         </div>
         <p className="font-medium text-base  text-primary_1 pb-3">
