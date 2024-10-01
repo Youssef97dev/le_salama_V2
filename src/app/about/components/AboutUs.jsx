@@ -53,7 +53,7 @@ const AboutUs = () => {
             <span className="text-3xl font-medium text-primary ">
               {item.title}
             </span>
-            <p className="text-gray-700 leading-7">{item.text}</p>
+            <p className="text-gray-700">{item.text}</p>
           </div>
         </div>
       ))}

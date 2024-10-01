@@ -10,7 +10,6 @@ const images = [
   "/assets/images/plats/plat16.jpg",
   "/assets/images/plats/plat6.jpg",
   "/assets/images/salama_22.jpg",
-
   "/assets/images/plats/plat8.jpg",
   "/assets/images/plats/plat4.jpg",
   "/assets/images/plats/plat5.jpg",
