@@ -24,9 +24,8 @@ export default function Home() {
       <Hero />
       <About />
       <RoofTop />
-      <Reserve />
       <Events />
-      <div className="flex flex-col h-[200vh]"></div>
+      <Reserve />
       <Footer />
     </div>
   );

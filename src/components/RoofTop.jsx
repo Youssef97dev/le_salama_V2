@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const RoofTop = () => {
   return (
-    <div className=" w-full h-fit flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14  py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
+    <div className=" w-full h-fit bg-primary flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14  py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
       <div className="w-full" data-aos="zoom-in">
         <video
           className="w-full h-[600px] object-cover hover:scale-105 transition-all ease-linear"
@@ -19,10 +19,10 @@ const RoofTop = () => {
         className="w-full flex flex-col gap-2 text-center"
         data-aos="zoom-in"
       >
-        <div className="lg:text-5xl text-2xl font-thin pb-4 text-primary">
+        <div className="lg:text-5xl text-2xl font-thin pb-4 text-white">
           Rooftop Skybar
         </div>
-        <p className="font-medium text-base  text-gray-700 pb-3">
+        <p className="font-medium text-base  text-primary_1 pb-3">
           Elevate your dining experience at Le Salama, where our stunning
           rooftop offers breathtaking views of Marrakech and the majestic Atlas
           Mountains. Nestled in a vibrant urban garden, the rooftop features

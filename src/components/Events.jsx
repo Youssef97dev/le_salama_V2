@@ -23,7 +23,7 @@ const data = [
 
 const Events = () => {
   return (
-    <div className="relative h-fit  flex flex-col space-y-5 items-center py-10 px-28">
+    <div className="relative h-fit  flex flex-col space-y-5 items-center py-10 px-16">
       {/* Parallax Background 
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed z-0"
@@ -36,7 +36,7 @@ const Events = () => {
       {/* Content */}
       <span className="italic text-lg text-primary_5">Discover our</span>
       <span className="text-5xl text-white">Events</span>
-      <div className="flex flex-col lg:flex-row gap-10">
+      <div className="flex flex-col lg:flex-row gap-14">
         {data.map((item) => (
           <div key={item.id} className="container_card">
             <div className="card ">
