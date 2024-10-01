@@ -34,7 +34,10 @@ const content = [
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-14 py-2 px-3 lg:px-10 lg:py-16  xl:px-72">
+    <div
+      id="main"
+      className="flex flex-col justify-center items-center gap-14 py-2 px-3 lg:px-10 lg:py-16  xl:px-72"
+    >
       {content.map((item, index) => (
         <div
           key={index}

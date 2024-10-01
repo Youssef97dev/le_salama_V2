@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-20"></div>
       {/* Hero Content */}
       <div className="absolute bottom-10 left-1/2 animate-bounce text-primary_1 border border-white rounded-full">
-        <Link href="#">
+        <Link href="#about">
           <RiArrowDropDownLine size={40} />
         </Link>
       </div>

@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28">
+    <div
+      id="about"
+      className="flex flex-col lg:flex-row justify-center gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
+    >
       <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
         <div className="lg:text-lg text-base italic text-primary_8">
           Moroccan Soul Food

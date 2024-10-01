@@ -22,7 +22,7 @@ const Hero = () => {
         </span>
       </div>
       <div className="absolute bottom-10 left-1/2 animate-bounce text-primary_1 border border-white rounded-full">
-        <Link href="#">
+        <Link href="#main">
           <RiArrowDropDownLine size={40} />
         </Link>
       </div>
