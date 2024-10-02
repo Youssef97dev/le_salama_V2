@@ -113,7 +113,7 @@ const NavbarMiddle = () => {
               )}
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="relative group flex items-center space-x-2"
             >
               <RiContactsBook3Line size={18} />
@@ -184,7 +184,7 @@ const NavbarMiddle = () => {
             <GrGallery />
             <span>Gallery</span>
           </Link>
-          <Link href="#" className="flex items-center space-x-2">
+          <Link href="/contact" className="flex items-center space-x-2">
             <RiContactsBook3Line />
             <span>Contact</span>
           </Link>
