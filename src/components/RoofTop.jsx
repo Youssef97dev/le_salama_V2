@@ -8,7 +8,9 @@ const RoofTop = () => {
     <div className=" w-full h-fit bg-primary flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14  py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
       <div
         className="w-full h-full lg:h-[430px] xl:h-[600px]"
-        data-aos="zoom-in"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
       >
         <video
           className="w-full h-full object-cover hover:scale-105 transition-all ease-linear"
@@ -24,6 +26,8 @@ const RoofTop = () => {
       <div
         className="w-full  flex flex-col gap-2 text-center"
         data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
       >
         <div className="lg:text-5xl text-2xl font-normal pb-4 text-primary_2">
           Rooftop Skybar
@@ -40,7 +44,12 @@ const RoofTop = () => {
           {t("section_rooftop.content_5")}
         </p>
       </div>
-      <div className="w-full h-full xl:h-[600px]" data-aos="zoom-in">
+      <div
+        className="w-full h-full xl:h-[600px]"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+      >
         <Image
           src="/assets/images/salama_14.jpg"
           alt="le salama 9"

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
+
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/react";
 import { Fragment } from "react";
 import Gallery from "./Gallery";
@@ -11,11 +11,16 @@ import { BiDrink } from "react-icons/bi";
 import { PiWineFill } from "react-icons/pi";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Menu = () => {
-  const { t } = useTranslation();
-
   const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  const { t } = useTranslation();
 
   const menuItemsMain = [
     { name: t("page_menu.main.dish_1"), description: "", price: "90 MAD" },
@@ -125,9 +130,6 @@ const Menu = () => {
     // Add more menu items here
   ];
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
   return (
     isClient && (
       <div className="relative my-3 mx-3 md:mx-16 xl:mx-60 flex flex-col justify-center items-center">

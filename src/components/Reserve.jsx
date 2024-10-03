@@ -57,7 +57,12 @@ const Reserve = () => {
       style={{ backgroundImage: "url('/assets/images/lesalama_6.jpg')" }}
     >
       <div className="absolute inset-0 bg-[#000000] h-full opacity-70"></div>
-      <div className="z-10  w-full h-full">
+      <div
+        className="z-10  w-full h-full"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+      >
         <Swiper
           modules={[Navigation, Autoplay, Pagination]}
           navigation={{
@@ -93,7 +98,12 @@ const Reserve = () => {
           </div>
         </Swiper>
       </div>
-      <div className="z-10 text-white w-full h-full flex justify-center rounded-sm ">
+      <div
+        className="z-10 text-white w-full h-full flex justify-center rounded-sm "
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+      >
         <div className="w-full md:w-3/5 lg:w-4/5 xl:w-3/5  h-full bg-[#000000] flex flex-col justify-start items-center gap-4 px-5 py-9 rounded-sm text-center">
           <span className=" text-4xl">{t("section_review.content_1")}</span>
           <div className="border-b border-[#ffffff34] w-5/6"></div>

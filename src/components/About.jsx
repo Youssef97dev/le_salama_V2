@@ -10,7 +10,12 @@ const About = () => {
       id="about"
       className="flex flex-col lg:flex-row justify-center gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
     >
-      <div className="w-full flex flex-col gap-2 p-3" data-aos="zoom-in">
+      <div
+        className="w-full flex flex-col gap-2 p-3"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+      >
         <div className="lg:text-lg text-base italic text-primary_8">
           Moroccan Soul Food
         </div>
@@ -39,7 +44,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-full flex gap-8 items-center" data-aos="zoom-in">
+      <div
+        className="w-full flex gap-8 items-center"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+      >
         <div className="w-full h-[90%]  self-end ">
           <Image
             src="/assets/images/salama_16.jpg"

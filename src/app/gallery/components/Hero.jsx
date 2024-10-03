@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="relative h-[65vh] w-full">
       {/* Image Background */}
       <Image
-        src="/assets/images/lesalama_6.jpg"
+        src="/assets/images/gallery/salama4.jpg"
         alt="Logo"
         width={1000}
         height={1000}

@@ -7,6 +7,7 @@ import RoofTop from "@/components/RoofTop";
 import Events from "@/components/Events";
 import Reserve from "@/components/Reserve";
 import Footer from "@/components/Footer";
+import WtspButton from "@/components/WtspButton";
 
 import dynamic from "next/dynamic";
 
@@ -31,6 +32,7 @@ export default function Home() {
         <Events />
         <Reserve />
         <Footer />
+        <WtspButton />
       </div>
     )
   );

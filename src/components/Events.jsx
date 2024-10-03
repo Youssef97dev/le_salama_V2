@@ -45,7 +45,13 @@ const Events = () => {
       </span>
       <div className="flex flex-col lg:flex-row gap-14">
         {data.map((item) => (
-          <div key={item.id} className="container_card">
+          <div
+            key={item.id}
+            className="container_card"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+          >
             <div className="card ">
               <div className="front">
                 <div className="absolute inset-0 bg-black opacity-20 "></div>
