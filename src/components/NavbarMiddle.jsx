@@ -130,6 +130,15 @@ const NavbarMiddle = () => {
                   <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"></span>
                 )}
               </Link>
+              <Link
+                target="_blank"
+                href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+                className="relative group flex items-center space-x-2"
+              >
+                <FaRegCalendarCheck size={18} />
+                <span>{t("menu.reservation")}</span>
+                <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"></span>
+              </Link>
             </div>
             <div className="hidden md:flex space-x-6 text-primary_1">
               <Link
@@ -225,7 +234,7 @@ const NavbarMiddle = () => {
               <span>{t("menu.contact")}</span>
             </Link>
             <Link
-              href="#"
+              href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
               className="flex items-center space-x-2 w-fit border border-primary_8 py-2 px-4 rounded-md"
             >
               <FaRegCalendarCheck />

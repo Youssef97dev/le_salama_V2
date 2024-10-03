@@ -1,6 +1,7 @@
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -37,6 +38,16 @@ const Hero = () => {
           <RiArrowDropDownLine size={40} />
         </Link>
       </div>
+      {/*<div className="absolute bottom-10 right-10 text-primary_1 p-5 bg-primary rounded-full hidden md:block">
+        <Link
+          href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+          target="_blank"
+          className="flex flex-col gap-3 justify-center items-center"
+        >
+          <Image src="/assets/images/hero-icon.png" height={43} width={43} />
+          <span className="font-medium">Reservation</span>
+        </Link>
+  </div>*/}
     </div>
   );
 };
