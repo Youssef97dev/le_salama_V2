@@ -68,7 +68,7 @@ const Events = () => {
                   <span className="text-2xl font-semibold text-center">
                     {item.title}
                   </span>
-                  <p className="font-medium text-base leading-8 text-center text-gray-600">
+                  <p className="font-medium text-base text-center text-gray-600">
                     {item.text}
                   </p>
                 </div>
