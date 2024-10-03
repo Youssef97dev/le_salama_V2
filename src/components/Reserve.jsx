@@ -53,7 +53,7 @@ const Reserve = () => {
   const { t } = useTranslation();
   return (
     <div
-      className="w-full h-fit relative bg-fixed bg-cover bg-center flex flex-col lg:flex-row items-center justify-between gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
+      className="w-full h-fit relative bg-fixed bg-cover bg-center flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
       style={{ backgroundImage: "url('/assets/images/lesalama_6.jpg')" }}
     >
       <div className="absolute inset-0 bg-[#000000] h-full opacity-70"></div>

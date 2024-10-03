@@ -159,6 +159,7 @@ const NavbarMiddle = () => {
             </div>
             <div
               className="relative inline-block"
+              onMouseLeave={() => setIsDropdownOpen(false)}
               onMouseEnter={() => setIsDropdownOpen(true)}
             >
               <button className="text-white px-4 py-2 flex justify-center items-center gap-2">
@@ -169,12 +170,8 @@ const NavbarMiddle = () => {
                 )}
                 <IoMdArrowDropdown size={18} />
               </button>
-
               {isDropdownOpen && (
-                <ul
-                  onMouseLeave={() => setIsDropdownOpen(false)}
-                  className="absolute bg-white border border-gray-300 mt-2 py-2 w-32 shadow-lg flex justify-center items-center"
-                >
+                <ul className="absolute top-8 bg-white mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
                   <li
                     className="px-4 py-2 hover:bg-primary_3 rounded-lg cursor-pointer"
                     onClick={() => changeLanguage("en")}
@@ -191,7 +188,7 @@ const NavbarMiddle = () => {
               )}
             </div>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden flex justify-end items-center w-full">
             <button
               className="text-white focus:outline-none"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -204,7 +201,7 @@ const NavbarMiddle = () => {
         <div
           className={`${
             menuOpen ? " block" : " hidden"
-          } md:hidden bg-primary_1 absolute top-24 w-full shadow-lg transition-all duration-300 ease-in-out`}
+          } md:hidden bg-primary_1 absolute top-14 w-full shadow-lg transition-all duration-300 ease-in-out`}
         >
           <div className="flex flex-col p-5 space-y-6 uppercase text-sm font-medium text-primary_9">
             <Link href="/" className="flex items-center space-x-2">
@@ -247,6 +244,20 @@ const NavbarMiddle = () => {
               <Link href="#">
                 <BsYoutube />
               </Link>
+            </div>
+            <div className="flex space-x-6 text-primary">
+              <div
+                className="py-2 hover:bg-primary_3 rounded-lg cursor-pointer"
+                onClick={() => changeLanguage("en")}
+              >
+                <img src="/assets/images/english.png" className="w-4 h-4" />
+              </div>
+              <div
+                className=" py-2 hover:bg-primary_3 rounded-lg cursor-pointer"
+                onClick={() => changeLanguage("fr")}
+              >
+                <img src="/assets/images/france.png" className="w-4 h-4" />
+              </div>
             </div>
           </div>
         </div>

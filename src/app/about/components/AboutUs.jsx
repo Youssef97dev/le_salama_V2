@@ -15,21 +15,21 @@ const AboutUs = () => {
 
   const content = [
     {
-      imageUrl: "/assets/images/salama_27.jpg",
+      imageUrl: "/assets/images/salama_18.jpg",
       title: t("page_about.small_title_1"),
-      className: "",
+      className: "flex-col-reverse md:flex-row",
       text: t("page_about.description_1"),
     },
     {
-      imageUrl: "/assets/images/salama_18.jpg",
+      imageUrl: "/assets/images/salama_20.jpg",
       title: t("page_about.small_title_2"),
-      className: "flex-row-reverse",
+      className: "flex-col-reverse md:flex-row-reverse",
       text: t("page_about.description_2"),
     },
     {
       imageUrl: "/assets/images/lesalama_7.jpg",
       title: t("page_about.small_title_3"),
-      className: "",
+      className: "flex-col-reverse md:flex-row",
       text: t("page_about.description_3"),
     },
   ];

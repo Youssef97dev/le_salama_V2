@@ -79,8 +79,8 @@ body {
 }
 
 .card {
-  height: 510px;
-  width: 400px;
+  height: 410px;
+  width: 300px;
   position: relative;
   transition: transform 1000ms;
   transform-style: preserve-3d;
@@ -137,6 +137,23 @@ body {
 @media (min-width: 1024px) {
   .masonry {
     column-count: 5;
+  }
+  .card {
+    height: 410px;
+    width: 300px;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    height: 510px;
+    width: 400px;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
   }
 }
 

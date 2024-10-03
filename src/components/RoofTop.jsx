@@ -6,9 +6,12 @@ const RoofTop = () => {
   const { t } = useTranslation();
   return (
     <div className=" w-full h-fit bg-primary flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14  py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
-      <div className="w-full" data-aos="zoom-in">
+      <div
+        className="w-full h-full lg:h-[430px] xl:h-[600px]"
+        data-aos="zoom-in"
+      >
         <video
-          className="w-full h-[600px] object-cover hover:scale-105 transition-all ease-linear"
+          className="w-full h-full object-cover hover:scale-105 transition-all ease-linear"
           autoPlay
           loop
           muted
@@ -19,7 +22,7 @@ const RoofTop = () => {
         </video>
       </div>
       <div
-        className="w-full flex flex-col gap-2 text-center"
+        className="w-full  flex flex-col gap-2 text-center"
         data-aos="zoom-in"
       >
         <div className="lg:text-5xl text-2xl font-normal pb-4 text-primary_2">
@@ -37,13 +40,13 @@ const RoofTop = () => {
           {t("section_rooftop.content_5")}
         </p>
       </div>
-      <div className="w-full " data-aos="zoom-in">
+      <div className="w-full h-full xl:h-[600px]" data-aos="zoom-in">
         <Image
           src="/assets/images/salama_14.jpg"
           alt="le salama 9"
           width={1200}
           height={1500}
-          className="w-full h-[600px] hover:scale-105  transition-all ease-linear"
+          className="w-full h-full hover:scale-105  transition-all ease-linear"
         />
       </div>
     </div>

@@ -51,7 +51,7 @@ const Content = () => {
         {images.map((src, index) => (
           <div
             key={index}
-            className="masonry-item relative shadow-lg hover:shadow-xl hover:scale-105 transition-all ease-linear overflow-hidden"
+            className="masonry-item relative shadow-lg hover:scale-105 transition-all ease-linear overflow-hidden"
           >
             <Image
               src={src}

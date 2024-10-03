@@ -32,8 +32,8 @@ const Hero = () => {
       </video>
       <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-20"></div>
       {/* Hero Content */}
-      <div className="absolute bottom-10 left-1/2 animate-bounce text-primary_1 border border-white rounded-full">
-        <Link href="#about">
+      <div className="absolute bottom-10 w-full flex justify-center items-center animate-bounce text-primary_1 ">
+        <Link href="#about" className="border border-white rounded-full">
           <RiArrowDropDownLine size={40} />
         </Link>
       </div>

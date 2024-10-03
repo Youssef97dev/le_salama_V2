@@ -30,8 +30,8 @@ const Hero = () => {
             {t("page_about.title")}
           </span>
         </div>
-        <div className="absolute bottom-10 left-1/2 animate-bounce text-primary_1 border border-white rounded-full">
-          <Link href="#main">
+        <div className="absolute bottom-10 w-full flex justify-center items-center animate-bounce text-primary_1">
+          <Link href="#main" className="border border-white rounded-full">
             <RiArrowDropDownLine size={40} />
           </Link>
         </div>
