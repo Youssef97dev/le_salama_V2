@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "home": "Home",
+    "cartemenu": "Menu",
+    "aboutus": "About us",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "reservation": "Reservation"
+  },
+  "section_about": {
+    "content_1": "Located in the heart of Djema el Fna square, it’s a cozy place to enjoy a drink after a shopping spree in the souks!",
+    "content_2": "An elegant and hospitable spot that harmonizes colonial style with Moroccan craftsmanship, where everything from the tones to the subdued lighting has been perfectly chosen for a coffee, lunch, or even a romantic dinner.",
+    "content_3": "At sunset, it’s the ideal place to enjoy an aperitif with a fantastic panorama of the Atlas Mountains. In the kitchen, you’ll find the must-try dishes of Moroccan cuisine: shoulder of lamb, Tangia, Kemias... all cooked with subtlety.",
+    "content_4": "As for the ambiance, there’s a pianist, DJ, or dancers, depending on the evening. And there’s more to discover! Come and explore the secrets this fascinating place hides."
+  },
+  "section_rooftop": {
+    "content_1": "Elevate your dining experience at Le Salama, where our stunning rooftop offers breathtaking views of Marrakech and the majestic Atlas Mountains. Nestled in a vibrant urban garden, the rooftop features cozy seating areas designed for relaxation and enjoyment.",
+    "content_2": "As the sun sets, immerse yourself in a captivating ambiance enhanced by our enchanting belly dance shows every evening, adding a touch of magic to your night.",
+    "content_3": "At Le Salama Rooftop, indulge in a culinary journey that celebrates the rich flavors of Moroccan and Mediterranean cuisine.",
+    "content_4": "Whether you're enjoying a refreshing cocktail or savoring a sumptuous dinner under the stars, our carefully crafted menu and inviting atmosphere create an unforgettable backdrop for your special moments.",
+    "content_5": "Experience the charm of Marrakech from the rooftop of Le Salama, where every visit promises to be memorable."
+  },
+  "section_event": {
+    "title": "Discover our",
+    "big_title": "Events",
+    "card_title_1": "Bellydance Show every evening at 10:00 PM",
+    "card_content_1": "At Le Salama in Marrakech, each evening comes alive with the captivating rhythms and vibrant energy of a traditional belly dance show. Guests are treated to an unforgettable cultural experience as skilled performers showcase mesmerizing dance moves against the backdrop of our stunning rooftop setting.",
+    "card_title_2": "Enjoy our Happy Hour Specials",
+    "card_content_2": "Join us at Le Salama for our Happy Hour specials, where you can enjoy refreshing cocktails and drinks at discounted prices. Unwind in our cozy atmosphere as you sip on your favorite beverages and soak in the vibrant energy of Marrakech.",
+    "card_title_3": "Experience the magic of breathtaking sunset views",
+    "card_content_3": "At Le Salama, you can experience the magic of breathtaking sunset views that paint the Marrakech skyline in stunning hues of gold and crimson. As the sun sets behind the city, our rooftop offers a serene and picturesque backdrop, perfect for a romantic evening or a relaxing dinner."
+  },
+  "section_review": {
+    "content_1": "Chef's Special Menu",
+    "content_2": "Signature Dishes",
+    "content_3": "Experience a delightful blend of traditional Moroccan flavors with modern culinary techniques, crafted by our renowned chef."
+  },
+  "footer": {
+    "links": "Links",
+    "social_media": "Social Media",
+    "copyright": "All rights reserved."
+  },
+  "page_menu": {
+    "title": "Our Menu",
+    "main": {
+      "title": "Main",
+      "dish_1": "Moroccan Soup",
+      "dish_2": "Moroccan chicken Pie",
+      "dish_3": "Atlas Lamb skewers",
+      "dish_4": "Greek Salad",
+      "desciption_4": "Tomatos, cucumber, olive oil, oregano, feta, olives, onion",
+      "dish_5": "Beef tagine",
+      "desciption_5": "Beef tagine with plums",
+      "dish_6": "Mixt skewers",
+      "desciption_6": "Chicken, Kefta, Merguez, and Lamb",
+      "dish_7": "Cheese briouates",
+      "dish_8": "Chicken Tagine",
+      "desciption_8": "Chicken tagine with confit lemon and olives.",
+      "dish_9": "Royal Couscous",
+      "desciption_9": "Couscous with chicken, kefta, Lamb and sausages skewers."
+    },
+    "drinks": {
+      "title": "Drinks",
+      "drink_1": "Wake Up",
+      "desciption_1": "Shot of fresh lemon, honey, ginger.",
+      "drink_2": "Super Detox",
+      "desciption_2": "cucumber, celey, lemon, green apple, ginger.",
+      "drink_3": "Be Fit",
+      "desciption_3": "orange, ginger, apple, carrot.",
+      "drink_4": "Green",
+      "desciption_4": "apple, celery, spinach, lemon.",
+      "drink_5": "Purple",
+      "desciption_5": "strawberry, blackberry, beetroot, orange.",
+      "drink_6": "Power",
+      "desciption_6": "banana, kiwi, pineapple, mango.",
+      "drink_7": "Pear",
+      "drink_8": "Carrot",
+      "drink_9": "Datte"
+    },
+    "wine": {
+      "title": "Wine",
+      "wine_1": "Jamaa Lafna Negroni",
+      "desciption_1": "Spice infused gin, vermouth, campari.",
+      "wine_2": "Lavander Fizz",
+      "desciption_2": "Lavander, cucumber, mint, pepper infused simple syrop, soda.",
+      "wine_3": "Red Wine",
+      "desciption_3": "red wine, triple sec, seasonnal fruits, orange juice, cinnamon, sugar, lemonnade.",
+      "wine_4": "White Wine",
+      "desciption_4": "white wine, triple sec, seasonnal fruits, orange juice, cinnamon, sugar, lemonnade.",
+      "wine_5": "Prosecco",
+      "desciption_5": "prosecco, triple sec, seasonnal fruits, orange juice, cinnamon, sugar, lemonnade.",
+      "wine_6": "Collet Brut"
+    }
+  },
+  "page_about": {
+    "title": "A Taste of Tradition, A Feast of Culture",
+    "small_title_1": "Discover Le Salama",
+    "description_1": "An enchanting culinary escapade Nestled in the heart of vibrant Marrakech, Le Salama invites you on a unique sensory journey where Moroccan tradition meets the elegance of a modern sky bar. This emblematic venue, renowned for its authentic architecture and enchanting decor, offers an unforgettable gastronomic experience. On the menu, you'll discover authentic Moroccan dishes prepared with passion and finesse. Each dish tells a story, the story of carefully chosen spices and local seasonal produce, guaranteeing full flavors and enchanting aromas. Whether for a business lunch, a romantic dinner under the stars, or a cocktail with friends at the sky bar, Le Salama promises memorable moments.",
+    "small_title_2": "The Skybar",
+    "description_2": "The sky bar, a veritable urban oasis, offers panoramic views over the rooftops of the ochre city. In a friendly, relaxed atmosphere, you can enjoy innovative cocktails designed by our mixologists, while admiring the sunset that sets the Marrakesh sky ablaze.",
+    "small_title_3": "An authentic experience",
+    "description_3": "In the heart of Marrakech, Le Salama restaurant offers an authentic culinary experience. From the moment you enter, the shimmering colors and spicy aromas immerse you in the warm ambience of Moroccan culture. Traditional dishes, such as savory tagine and fragrant couscous, are prepared with care, featuring fresh, local ingredients. Friendly waiters guide you through the menu, and local music creates an enchanting atmosphere. An evening at Salama is much more than a meal: it's a sensory journey to the heart of Morocco."
+  },
+  "page_contact": {
+    "title": "Connect with us, Experience the Magic of Le Salama",
+    "content": "At the heart of the experience at Le Salama restaurant in Marrakech. In a warm, authentic atmosphere, let yourself be carried away by the generosity of Moroccan dishes to share with friends or family. From fragrant tajines and tasty couscous to exotic cocktails, every moment becomes a celebration of tradition and friendship. Salama is the ideal place to gather, savour and create unforgettable memories in an enchanting setting."
+  }
+}

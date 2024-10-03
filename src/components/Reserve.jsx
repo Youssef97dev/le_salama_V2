@@ -9,6 +9,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
+import { useTranslation } from "react-i18next";
+
 const reviews = [
   {
     stars: 5,
@@ -48,6 +50,7 @@ const reviews = [
 ];
 
 const Reserve = () => {
+  const { t } = useTranslation();
   return (
     <div
       className="w-full h-fit relative bg-fixed bg-cover bg-center flex flex-col lg:flex-row items-center justify-between gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
@@ -92,19 +95,18 @@ const Reserve = () => {
       </div>
       <div className="z-10 text-white w-full h-full flex justify-center rounded-sm ">
         <div className="w-full md:w-3/5 lg:w-4/5 xl:w-3/5  h-full bg-[#000000] flex flex-col justify-start items-center gap-4 px-5 py-9 rounded-sm text-center">
-          <span className=" text-4xl">{`Chef's Special Menu`}</span>
+          <span className=" text-4xl">{t("section_review.content_1")}</span>
           <div className="border-b border-[#ffffff34] w-5/6"></div>
-          <span className="text-xl mb-5">Signature Dishes</span>
+          <span className="text-xl mb-5">{t("section_review.content_2")}</span>
           <p className="text-sm font-extralight mb-5">
-            Experience a delightful blend of traditional Moroccan flavors with
-            modern culinary techniques, crafted by our renowned chef.
+            {t("section_review.content_3")}
             <br />
           </p>
           <Link
             href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
             className="font-semibold text-lg bg-transparent hover:bg-primary border border-primary px-8 py-2 "
           >
-            Reservation
+            {t("menu.reservation")}
           </Link>
           <div className="flex flex-col items-center gap-2">
             <span className="text-sm">

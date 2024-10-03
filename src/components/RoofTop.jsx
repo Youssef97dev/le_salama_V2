@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
+import i18next from "../../i18n";
 
 const RoofTop = () => {
+  const { t } = useTranslation();
   return (
     <div className=" w-full h-fit bg-primary flex flex-col-reverse lg:flex-row items-center align-middle justify-center gap-14  py-4 px-3 lg:px-10 lg:py-6 xl:px-28 xl:py-10 ">
       <div className="w-full" data-aos="zoom-in">
@@ -23,24 +26,15 @@ const RoofTop = () => {
           Rooftop Skybar
         </div>
         <p className="font-medium text-base  text-primary_1 pb-3">
-          Elevate your dining experience at Le Salama, where our stunning
-          rooftop offers breathtaking views of Marrakech and the majestic Atlas
-          Mountains. Nestled in a vibrant urban garden, the rooftop features
-          cozy seating areas designed for relaxation and enjoyment.
+          {t("section_rooftop.content_1")}
           <br />
-          As the sun sets, immerse yourself in a captivating ambiance enhanced
-          by our enchanting belly dance shows every evening, adding a touch of
-          magic to your night.
+          {t("section_rooftop.content_2")}
           <br />
-          At Le Salama Rooftop, indulge in a culinary journey that celebrates
-          the rich flavors of Moroccan and Mediterranean cuisine.
+          {t("section_rooftop.content_3")}
           <br />
-          {`Whether you're enjoying a refreshing cocktail or savoring a sumptuous
-          dinner under the stars, our carefully crafted menu and inviting
-          atmosphere create an unforgettable backdrop for your special moments.`}
+          {t("section_rooftop.content_4")}
           <br />
-          Experience the charm of Marrakech from the rooftop of Le Salama, where
-          every visit promises to be memorable.
+          {t("section_rooftop.content_5")}
         </p>
       </div>
       <div className="w-full " data-aos="zoom-in">

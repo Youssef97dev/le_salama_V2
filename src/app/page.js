@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -15,18 +15,23 @@ const NavbarMiddle = dynamic(() => import("@/components/NavbarMiddle"), {
 });
 
 export default function Home() {
+  const [isClient, setIsClient] = useState(false);
+
   useEffect(() => {
+    setIsClient(true);
     AOS.init();
   }, []);
   return (
-    <div>
-      <NavbarMiddle />
-      <Hero />
-      <About />
-      <RoofTop />
-      <Events />
-      <Reserve />
-      <Footer />
-    </div>
+    isClient && (
+      <div>
+        <NavbarMiddle />
+        <Hero />
+        <About />
+        <RoofTop />
+        <Events />
+        <Reserve />
+        <Footer />
+      </div>
+    )
   );
 }

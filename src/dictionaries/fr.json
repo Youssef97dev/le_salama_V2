@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "home": "Accueil",
+    "cartemenu": "La carte",
+    "aboutus": "À propos de nous",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "reservation": "Réservation"
+  },
+  "section_about": {
+    "content_1": "Situé au cœur de la place Djema el Fna, c'est un endroit confortable pour prendre un verre après une séance de shopping dans les souks !",
+    "content_2": "Un endroit élégant et accueillant qui harmonise le style colonial avec l'artisanat marocain, où tout, des tons à la lumière tamisée, a été parfaitement choisi pour un café, un déjeuner ou même un dîner romantique.",
+    "content_3": "Au coucher du soleil, c'est l'endroit idéal pour prendre un apéritif avec un panorama fantastique sur les montagnes de l'Atlas. En cuisine, vous trouverez les incontournables de la cuisine marocaine : épaule d'agneau, Tangia, Kemias... le tout cuisiné avec subtilité.",
+    "content_4": "Côté ambiance, il y a un pianiste, un DJ ou des danseurs, selon les soirs. Et ce n'est pas tout ! Venez explorer les secrets que cache ce lieu fascinant."
+  },
+  "section_rooftop": {
+    "content_1": "Le Salama vous propose une expérience gastronomique exceptionnelle. Son rooftop offre une vue imprenable sur Marrakech et sur les majestueuses montagnes de l'Atlas. Niché dans un jardin urbain dynamique, le rooftop propose des espaces confortables conçus pour la détente et le plaisir.",
+    "content_2": "Au coucher du soleil, plongez dans une ambiance captivante, rehaussée par des spectacles de danse orientale tous les soirs, qui ajouteront une touche de magie à votre soirée.",
+    "content_3": "Au Salama Rooftop, laissez-vous tenter par un voyage culinaire qui célèbre les riches saveurs de la cuisine marocaine et méditerranéenne.",
+    "content_4": "Que vous dégustiez un cocktail rafraîchissant ou que vous savouriez un somptueux dîner sous les étoiles, notre menu soigneusement élaboré et notre atmosphère accueillante créent une toile de fond inoubliable pour vos moments privilégiés.",
+    "content_5": "Découvrez le charme de Marrakech depuis le rooftop du Salama, où chaque visite promet d'être mémorable."
+  },
+  "section_event": {
+    "title": "Découvrez nos",
+    "big_title": "Evénements",
+    "card_title_1": "Spectacle de danse orientale tous les soirs à 22h00",
+    "card_content_1": "Au Salama de Marrakech, chaque soir s'anime des rythmes captivants et de l'énergie vibrante d'un spectacle traditionnel de danse du ventre. Les clients vivent une expérience culturelle inoubliable grâce à des artistes talentueux qui présentent des mouvements de danse hypnotiques sur le rooftop de l'hôtel.",
+    "card_title_2": "Profitez de nos offres spéciales Happy Hour",
+    "card_content_2": "Rejoignez-nous au Salama pour nos spéciaux Happy Hour, où vous pourrez déguster des cocktails rafraîchissants et des boissons à des prix réduits. Détendez-vous dans notre atmosphère chaleureuse en sirotant vos boissons préférées et en vous imprégnant de l'énergie vibrante de Marrakech.",
+    "card_title_3": "Vivez la magie des vues imprenables au coucher du soleil.",
+    "card_content_3": "Au Salama, vous pourrez découvrir la magie des couchers de soleil à couper le souffle, qui peignent l'horizon de Marrakech dans des teintes d'or et de pourpre étonnantes. Lorsque le soleil se couche sur la ville, notre rooftop offre une toile de fond sereine et pittoresque, parfaite pour une soirée romantique ou un dîner relaxant."
+  },
+  "section_review": {
+    "content_1": "Menu spécial du chef",
+    "content_2": "Plats de prestige",
+    "content_3": "Découvrez un délicieux mélange de saveurs marocaines traditionnelles et de techniques culinaires modernes, élaborées par notre chef renommé."
+  },
+  "footer": {
+    "links": "Liens",
+    "social_media": "Reseaux Sociaux",
+    "copyright": "Tous droits réservés."
+  },
+  "page_menu": {
+    "title": "Notre menu",
+    "main": {
+      "title": "Principal",
+      "dish_1": "Soupe Marocaine",
+      "dish_2": "Pastilla Au Poulet",
+      "dish_3": "Brochettes d'agneau de l'Atlas",
+      "dish_4": "Salade Grecque",
+      "desciption_4": "Tomates, concombre, huile d'olive, origan, feta, olives, oignon.",
+      "dish_5": "Tagine de Boeuf",
+      "desciption_5": "Tagine de boeuf aux pruneaux.",
+      "dish_6": "Brochettes Mixte",
+      "desciption_6": "Poulet, Kefta, Merguez et Agneau.",
+      "dish_7": "Briouates au fromage",
+      "dish_8": "Tagine Poulet",
+      "desciption_8": "Tagine poulet aux citrons et olives confits.",
+      "dish_9": "Couscous Royal",
+      "desciption_9": "Couscous aux brochettes de poulet, kefta, agneau et saucisses."
+    },
+    "drinks": {
+      "title": "Boissons",
+      "drink_1": "Réveillez-vous",
+      "desciption_1": "Shot de citron frais, miel, gingembre.",
+      "drink_2": "Super Détox",
+      "desciption_2": "concombre, céleri, citron, pomme verte, gingembre.",
+      "drink_3": "Soyez en forme",
+      "desciption_3": "orange, gingembre, pomme, carotte.",
+      "drink_4": "Verte",
+      "desciption_4": "pomme, céleri, épinards, citron.",
+      "drink_5": "Violet",
+      "desciption_5": "fraise, mûre, betterave, orange.",
+      "drink_6": "Énergie",
+      "desciption_6": "banane, kiwi, ananas, mangue.",
+      "drink_7": "Poire",
+      "drink_8": "Carotte",
+      "drink_9": "Datte"
+    },
+    "wine": {
+      "title": "Vin",
+      "wine_1": "Jamaa Lafna Negroni",
+      "desciption_1": "Gin infusé aux épices, vermouth, campari.",
+      "wine_2": "Lavander Fizz",
+      "desciption_2": "Sirop simple infusé à la lavande, au concombre, à la menthe et au poivre, soda.",
+      "wine_3": "Vin Rouge",
+      "desciption_3": "vin rouge, triple sec, fruits de saison, jus d'orange, cannelle, sucre, limonade.",
+      "wine_4": "Vin Blanc",
+      "desciption_4": "vin blanc, triple sec, fruits de saison, jus d'orange, cannelle, sucre, limonade.",
+      "wine_5": "Prosecco",
+      "desciption_5": "prosecco, triple sec, fruits de saison, jus d'orange, cannelle, sucre, limonade.",
+      "wine_6": "Collet Brut"
+    }
+  },
+  "page_about": {
+    "title": "Un goût de tradition, un festin de culture",
+    "small_title_1": "Découvrez Le Salama",
+    "description_1": "Une escapade culinaire envotante Niché au cœur de la vibrante Marrakech, Le Salama vous invite à un voyage sensoriel unique où la tradition marocaine se marie avec l'élégance d'un sky bar moderne. Ce lieu emblématique, reconnu pour son architecture authentique et son décor enchanteur, offre une expérience gastronomique inoubliable. Au menu, vous découvrirez des mets marocains authentiques préparés avec passion et finesse. Chaque plat raconte une histoire, celle des épices choisies avec soin et des produits locaux de saison, garantissant des saveurs pleines et des arômes envoûtants. Que ce soit pour un déjeuner d'affaires, un dîner romantique sous les étoiles, ou un cocktail entre amis au sky bar, Le Salama promet des moments mémorables.",
+    "small_title_2": "Le Skybar",
+    "description_2": "Le sky bar, véritable oasis urbain, vous offre une vue panoramique sur les toits de la ville ocre. Dans une ambiance conviviale et détendue, vous pourrez savourer des cocktails innovants, conçus par nos mixologues, tout en admirant le coucher de soleil qui embrase le ciel de Marrakech.",
+    "small_title_3": "Une expérience authentique",
+    "description_3": "Au cœur de Marrakech, le restaurant Le Salama offre une expérience culinaire authentique. Dès l’entrée, les couleurs chatoyantes et les arômes épicés nous plongent dans l’ambiance chaleureuse de la culture marocaine. Les plats traditionnels, tels que le tajine savoureux et le couscous parfumé, sont préparés avec soin, mettant en valeur des ingrédients frais et locaux. Les serveurs accueillants vous guident à travers le menu, et la musique locale crée une atmosphère envoûtante. Une soirée au Salama, c’est bien plus qu’un repas : c’est un voyage sensoriel au cœur du Maroc."
+  },
+  "page_contact": {
+    "title": "Connectez-vous avec nous, vivez la magie de Le Salama",
+    "content": "Au cœur de l'expérience du restaurant Le Salama à Marrakech. Dans une ambiance chaleureuse et authentique, laissez-vous emporter par la générosité des plats marocains à partager entre amis ou en famille. Des tajines parfumés au couscous savoureux en passant par les cocktails exotiques, chaque instant devient une célébration de la tradition et de l'amitié. Salama est l'endroit idéal pour se réunir, savourer et créer des souvenirs inoubliables dans un cadre enchanteur."
+  }
+}

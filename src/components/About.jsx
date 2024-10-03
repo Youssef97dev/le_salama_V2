@@ -1,7 +1,10 @@
 import { PiCalendarBlankFill } from "react-icons/pi";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
+import i18next from "../../i18n";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <div
       id="about"
@@ -15,27 +18,20 @@ const About = () => {
           Restaurant Le Salama
         </div>
         <p className="font-medium text-base text-gray-700 mb-10 lg:mb-16">
-          Located in the heart of Djema el Fna square, it’s a cozy place to
-          enjoy a drink after a shopping spree in the souks!
+          {t("section_about.content_1")}
           <br />
-          An elegant and hospitable spot that harmonizes colonial style with
-          Moroccan craftsmanship, where everything from the tones to the subdued
-          lighting has been perfectly chosen for a coffee, lunch, or even a
-          romantic dinner.
+          {t("section_about.content_2")}
           <br />
-          At sunset, it’s the ideal place to enjoy an aperitif with a fantastic
-          panorama of the Atlas Mountains. In the kitchen, you’ll find the
-          must-try dishes of Moroccan cuisine: shoulder of lamb, Tangia,
-          Kemias... all cooked with subtlety.
+          {t("section_about.content_3")}
           <br />
-          As for the ambiance, there’s a pianist, DJ, or dancers, depending on
-          the evening. And there’s more to discover! Come and explore the
-          secrets this fascinating place hides.
+          {t("section_about.content_4")}
         </p>
         <div className="flex justify-between items-center w-fit gap-2 text-primary_8">
           <PiCalendarBlankFill size={55} />
           <div className="flex flex-col ">
-            <span className="text-lg font-semibold">Reservation</span>
+            <span className="text-lg font-semibold">
+              {t("menu.reservation")}
+            </span>
             <span className="text-black font-semibold text-lg lg:text-2xl">
               +212 675-480018
             </span>
@@ -43,9 +39,7 @@ const About = () => {
         </div>
       </div>
 
-      <div
-        className="w-full flex gap-8 items-center" //data-aos="zoom-in"
-      >
+      <div className="w-full flex gap-8 items-center" data-aos="zoom-in">
         <div className="w-full h-[90%]  self-end ">
           <Image
             src="/assets/images/salama_16.jpg"
