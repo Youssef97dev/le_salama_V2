@@ -1,39 +1,150 @@
 "use client";
-import { useEffect, useState } from "react";
-import AOS from "aos";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import RoofTop from "@/components/RoofTop";
-import Events from "@/components/Events";
-import Reserve from "@/components/Reserve";
-import Footer from "@/components/Footer";
-import WtspButton from "@/components/WtspButton";
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
-import dynamic from "next/dynamic";
+import { BsInstagram, BsFacebook, BsPinterest } from "react-icons/bs";
+import { FaTripadvisor } from "react-icons/fa";
+import { FaRegCalendarCheck } from "react-icons/fa6";
 
-const NavbarMiddle = dynamic(() => import("@/components/NavbarMiddle"), {
-  ssr: false,
-});
+export default function page() {
+  const [hovered, setHovered] = useState(null);
 
-export default function Home() {
-  const [isClient, setIsClient] = useState(false);
+  const columns = [
+    {
+      id: 1,
+      title: "La Carte",
+      imageSrc: "/assets/images/salama_24.jpg",
+      videoSrc: "/assets/videos/rooftop.mp4",
+      href: "/menu",
+    },
+    {
+      id: 2,
+      title: "Le Salama",
+      imageSrc: "/assets/images/salama_12.jpg",
+      videoSrc:
+        "https://res.cloudinary.com/dz7wroord/video/upload/v1724499876/zhukhjwdelkkkftxpil5.mp4",
+      href: "/home",
+    },
+    {
+      id: 3,
+      title: "Experience",
+      imageSrc: "/assets/images/salama_13.jpg",
+      videoSrc: "/assets/videos/lesalama.mp4",
+      href: "#",
+    },
+  ];
 
-  useEffect(() => {
-    setIsClient(true);
-    AOS.init();
-  }, []);
+  const handleMouseEnter = (index) => {
+    setHovered(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(null);
+  };
+
   return (
-    isClient && (
-      <div>
-        <NavbarMiddle />
-        <Hero />
-        <About />
-        <RoofTop />
-        <Events />
-        <Reserve />
-        <Footer />
-        <WtspButton />
+    <div className="w-full h-screen flex flex-col justify-center items-center">
+      <div className="w-full h-[10%] bg-primary flex justify-between items-center px-5 gap-3">
+        <div>
+          <Link
+            href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+            className="flex justify-center items-center space-x-2 w-fit border border-primary_1 py-1 px-2 md:py-2 md:px-4 rounded-md text-primary_1 hover:bg-primary_1 hover:text-primary font-semibold text-xs md:text-base"
+          >
+            <FaRegCalendarCheck />
+            <span>Reservation</span>
+          </Link>
+        </div>
+        <div>
+          <Link href="/">
+            <Image
+              src="/assets/images/logo-salama-white.png"
+              alt="Logo"
+              width={160}
+              height={160}
+              className="mr-2"
+            />
+          </Link>
+        </div>
+        <div className="flex space-x-3 md:space-x-6 text-primary_1">
+          <Link
+            href="https://www.instagram.com/lesalamamarrakech/"
+            target="_blank"
+          >
+            <BsInstagram className="w-3 h-3 md:w-full md:h-full" />
+          </Link>
+          <Link
+            href="https://www.facebook.com/lesalamamarrakech/"
+            target="_blank"
+          >
+            <BsFacebook className="w-3 h-3 md:w-full md:h-full" />
+          </Link>
+          <Link
+            href="https://www.pinterest.com/lesalamamarrakech/"
+            target="_blank"
+          >
+            <BsPinterest className="w-3 h-3 md:w-full md:h-full" />
+          </Link>
+          <Link
+            href="https://www.tripadvisor.fr/Restaurant_Review-g293734-d2446537-Reviews-Le_Salama_Moroccan_Soul_Food-Marrakech_Marrakech_Safi.html"
+            target="_blank"
+          >
+            <FaTripadvisor className="w-3 h-3 md:w-full md:h-full" />
+          </Link>
+        </div>
       </div>
-    )
+      <div className="w-full h-[90%] bg-black flex flex-col md:flex-row justify-center items-center">
+        {columns.map((col) => (
+          <Link
+            key={col.id}
+            href={col.href}
+            target="_blank"
+            onMouseEnter={() => handleMouseEnter(col.id)}
+            onMouseLeave={handleMouseLeave}
+            className={`w-full h-full relative bg-slate-700 overflow-hidden transition-all duration-500 ease-in-out flex-1 ${
+              hovered === col.id
+                ? "flex-[9]"
+                : hovered !== null
+                ? "flex-[1]"
+                : "flex-1"
+            }`}
+          >
+            {/* Image Background with Overlay */}
+            <img
+              src={col.imageSrc}
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+                hovered === col.id ? "opacity-0" : "opacity-100"
+              }`}
+              alt="Rooftop"
+            />
+            <div
+              className={`absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center z-10 text-white text-2xl md:text-4xl uppercase`}
+            >
+              <h1>{col.title}</h1>
+            </div>
+
+            <div
+              className={`absolute bottom-5 flex items-center justify-center w-full z-10`}
+            >
+              <img
+                src="/assets/images/pointer.png"
+                className="w-8 h-8 md:w-14 md:h-14 "
+                alt="pointer hand"
+              />
+            </div>
+
+            <video
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+                hovered === col.id ? "opacity-100" : "opacity-0"
+              }`}
+              src={col.videoSrc}
+              muted
+              autoPlay
+              loop
+            />
+          </Link>
+        ))}
+      </div>
+    </div>
   );
 }
