@@ -112,7 +112,7 @@ export default function HomePage() {
             {/* Image Background with Overlay */}
             <img
               src={col.imageSrc}
-              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 hidden md:block ${
                 hovered === col.id ? "opacity-0" : "opacity-100"
               }`}
               alt="Rooftop"
@@ -134,8 +134,8 @@ export default function HomePage() {
             </div>
 
             <video
-              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
-                hovered === col.id ? "opacity-100" : "opacity-0"
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500  ${
+                hovered === col.id ? "opacity-100" : "opacity-100 md:opacity-0"
               }`}
               src={col.videoSrc}
               muted
