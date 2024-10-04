@@ -22,15 +22,14 @@ export default function HomePage() {
       id: 2,
       title: "Le Salama",
       imageSrc: "/assets/images/salama_12.jpg",
-      videoSrc:
-        "https://res.cloudinary.com/dz7wroord/video/upload/v1724499876/zhukhjwdelkkkftxpil5.mp4",
+      videoSrc: "/assets/videos/salamapres.mp4",
       href: "/home",
     },
     {
       id: 3,
       title: "Experience",
       imageSrc: "/assets/images/salama_13.jpg",
-      videoSrc: "/assets/videos/lesalama.mp4",
+      videoSrc: "/assets/videos/salamapres.mp4",
       href: "#",
     },
   ];
@@ -62,7 +61,7 @@ export default function HomePage() {
               alt="Logo"
               width={160}
               height={160}
-              className="mr-2 w-32 md:w-full md:h-full"
+              className="mr-2 w-32 md:w-full"
             />
           </Link>
         </div>
