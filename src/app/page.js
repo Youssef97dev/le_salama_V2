@@ -61,7 +61,7 @@ export default function HomePage() {
               alt="Logo"
               width={160}
               height={160}
-              className="mr-2 w-32 md:w-full"
+              className="mr-2 w-32 md:w-48"
             />
           </Link>
         </div>
