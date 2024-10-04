@@ -131,9 +131,17 @@ const NavbarMiddle = () => {
                   <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"></span>
                 )}
               </Link>
-              <Link href="/events" className="flex items-center space-x-2">
+              <Link
+                href="/events"
+                className="relative group flex items-center space-x-2"
+              >
                 <LuPartyPopper />
                 <span>{t("menu.events")}</span>
+                {isActive("/events") ? (
+                  <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-100 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-100"></span>
+                ) : (
+                  <span className="absolute left-0 bottom-[-4px] w-full h-[1px] bg-primary_4 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[1px] after:bg-primary_4 after:transform after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"></span>
+                )}
               </Link>
               <Link
                 target="_blank"
