@@ -7,7 +7,7 @@ import { BsInstagram, BsFacebook, BsPinterest } from "react-icons/bs";
 import { FaTripadvisor } from "react-icons/fa";
 import { FaRegCalendarCheck } from "react-icons/fa6";
 
-export default function page() {
+export default function HomePage() {
   const [hovered, setHovered] = useState(null);
 
   const columns = [
