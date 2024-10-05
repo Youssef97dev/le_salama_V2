@@ -14,11 +14,7 @@ const Hero = () => {
         muted
         playsInline
       >
-        <source
-          //src="https://res.cloudinary.com/dz7wroord/video/upload/v1724499876/zhukhjwdelkkkftxpil5.mp4"
-          src="/assets/videos/hero-home.mp4"
-          type="video/mp4"
-        />
+        <source src="/assets/videos/hero-home.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

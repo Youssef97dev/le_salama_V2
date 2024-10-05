@@ -23,8 +23,7 @@ export default function HomePage() {
       id: 2,
       title: "Le Salama",
       imageSrc: "/assets/images/salama_12.jpg",
-      videoSrc:
-        "https://res.cloudinary.com/dz7wroord/video/upload/v1728119622/salamamain_umwoy5.mp4",
+      videoSrc: "/assets/videos/hero-home.mp4",
       href: "/home",
     },
     {
