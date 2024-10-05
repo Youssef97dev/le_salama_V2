@@ -15,8 +15,7 @@ export default function HomePage() {
       id: 1,
       title: "La Carte",
       imageSrc: "/assets/images/salama_24.jpg",
-      videoSrc:
-        "https://res.cloudinary.com/dz7wroord/video/upload/v1728119048/salamavid1_zethus.mp4",
+      videoSrc: "/assets/videos/salamavid1.mp4",
       href: "/menu",
     },
     {
