@@ -45,8 +45,8 @@ export default function HomePage() {
   };
 
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center">
-      <div className="w-full h-[10%] bg-primary flex justify-between items-center px-5 gap-3">
+    <div className="w-full h-[250vh] md:h-screen flex flex-col justify-start items-center">
+      <div className="w-full h-[10vh] bg-primary flex justify-between items-center px-5 gap-3">
         <div>
           <Link
             href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
@@ -94,7 +94,7 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
-      <div className="w-full h-[90%] bg-black flex flex-col md:flex-row justify-center items-center">
+      <div className="w-full h-[240vh] md:h-[90vh] bg-black flex flex-col md:flex-row justify-center items-center">
         {columns.map((col) => (
           <Link
             key={col.id}
