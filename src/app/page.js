@@ -15,21 +15,24 @@ export default function HomePage() {
       id: 1,
       title: "La Carte",
       imageSrc: "/assets/images/salama_24.jpg",
-      videoSrc: "/assets/videos/rooftop.mp4",
+      videoSrc:
+        "https://res.cloudinary.com/dz7wroord/video/upload/v1728119048/salamavid1_zethus.mp4",
       href: "/menu",
     },
     {
       id: 2,
       title: "Le Salama",
       imageSrc: "/assets/images/salama_12.jpg",
-      videoSrc: "/assets/videos/salamapres.mp4",
+      videoSrc:
+        "https://res.cloudinary.com/dz7wroord/video/upload/v1728119622/salamamain_umwoy5.mp4",
       href: "/home",
     },
     {
       id: 3,
       title: "Experience",
       imageSrc: "/assets/images/salama_13.jpg",
-      videoSrc: "/assets/videos/salamapres.mp4",
+      videoSrc:
+        "https://res.cloudinary.com/dz7wroord/video/upload/v1728119307/salamapres_jhkoic.mp4",
       href: "#",
     },
   ];

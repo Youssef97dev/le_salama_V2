@@ -19,7 +19,10 @@ const RoofTop = () => {
           muted
           playsInline
         >
-          <source src="/assets/videos/rooftop.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dz7wroord/video/upload/v1728119045/rooftop_h91y1y.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
       </div>
