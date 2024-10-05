@@ -105,5 +105,18 @@
   "page_contact": {
     "title": "Connect with us, Experience the Magic of Le Salama",
     "content": "At the heart of the experience at Le Salama restaurant in Marrakech. In a warm, authentic atmosphere, let yourself be carried away by the generosity of Moroccan dishes to share with friends or family. From fragrant tajines and tasty couscous to exotic cocktails, every moment becomes a celebration of tradition and friendship. Salama is the ideal place to gather, savour and create unforgettable memories in an enchanting setting."
+  },
+  "page_event": {
+    "title": "Host your own event and enjoy our live shows",
+    "small_title_1": "Privatizations",
+    "description_1": "Ideally configured for your event, privatization of the entire facility allows you to welcome your loved ones for an unforgettable moment! Contact us to discuss your requirements, and we'll take care of organizing a moment that's just right for you.",
+    "small_title_2": "The Live Show",
+    "description_2_1": "Extend your oriental experience every evening with enchanting performances by oriental dancers, a feast for the eyes and the soul.",
+    "description_2_2": "Le Salama invites you to discover live oriental music with enchanting melodies, immersing you in the vibrant world of Arabic music.",
+    "description_2_3": "A unique moment to escape and experience the essence of Moroccan culture, in a warm and festive atmosphere.",
+    "small_title_3": "Concept store",
+    "description_3_1": "La Boutique by Le Salama offers a whole range of designer dresses.",
+    "description_3_2": "A wide selection of handbags, made by artisans in limited editions.",
+    "description_3_3": "Opening hours: daily from 11AM to 11PM."
   }
 }

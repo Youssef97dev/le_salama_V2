@@ -29,11 +29,11 @@ export default function HomePage() {
     },
     {
       id: 3,
-      title: "Experience",
+      title: "L'ambiance",
       imageSrc: "/assets/images/salama_13.jpg",
       videoSrc:
         "https://res.cloudinary.com/dz7wroord/video/upload/v1728119307/salamapres_jhkoic.mp4",
-      href: "#",
+      href: "/events",
     },
   ];
 

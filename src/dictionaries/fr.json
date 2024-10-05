@@ -105,5 +105,18 @@
   "page_contact": {
     "title": "Connectez-vous avec nous, vivez la magie de Le Salama",
     "content": "Au cœur de l'expérience du restaurant Le Salama à Marrakech. Dans une ambiance chaleureuse et authentique, laissez-vous emporter par la générosité des plats marocains à partager entre amis ou en famille. Des tajines parfumés au couscous savoureux en passant par les cocktails exotiques, chaque instant devient une célébration de la tradition et de l'amitié. Salama est l'endroit idéal pour se réunir, savourer et créer des souvenirs inoubliables dans un cadre enchanteur."
+  },
+  "page_event": {
+    "title": "Organisez votre propre événement et profitez de nos live shows",
+    "small_title_1": "Privatisations",
+    "description_1": "Idéalement configurée pour votre événement, la privatisation de l'ensemble vous permet d'accueillir vos proches pour un moment inoubliable ! Contactez-nous pour discuter de vos envies, nous nous chargeons d'organiser un moment à la hauteur de vos souhaits.",
+    "small_title_2": "Le Live Show",
+    "description_2_1": "Prolongez votre expérience orientale chaque soir avec des spectacles envoûtants de danseuses orientales, un régal pour les yeux et l’âme.",
+    "description_2_2": "Le Salama vous invite à découvrir, la musique live orientale avec des mélodies enchanteresses, vous plongeant dans l'univers vibrant des musiques arabes.",
+    "description_2_3": "Un moment unique pour s’évader et vivre l’essence de la culture marocaine, dans une ambiance festive et chaleureuse.",
+    "small_title_3": "Concept store",
+    "description_3_1": "La Boutique by Le Salama, c’est toute une proposition de Robes de créateurs.",
+    "description_3_2": "Une large sélection de sac à main, fabriqué par des artisans en édition limité.",
+    "description_3_3": "Horaires : tous les jours de 11h00 à 23h00."
   }
 }
