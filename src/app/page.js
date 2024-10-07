@@ -140,7 +140,8 @@ export default function HomePage() {
               muted
               autoPlay
               loop
-            />
+              playsInline
+            ></video>
           </Link>
         ))}
       </div>
