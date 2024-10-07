@@ -22,13 +22,13 @@ export default function HomePage() {
       id: 2,
       title: "Le Salama",
       imageSrc: "/assets/images/salama_12.jpg",
-      videoSrc: "/assets/videos/hero-home.mp4",
+      videoSrc: "/assets/videos/salamavid2.mp4",
       href: "/home",
     },
     {
       id: 3,
       title: "L'ambiance",
-      imageSrc: "/assets/images/salama_13.jpg",
+      imageSrc: "/assets/images/salamavid3.jpg",
       videoSrc:
         "https://res.cloudinary.com/dz7wroord/video/upload/v1728119307/salamapres_jhkoic.mp4",
       href: "/events",
