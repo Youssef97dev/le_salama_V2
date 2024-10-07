@@ -10,6 +10,7 @@ const WtspButton = () => {
           alt="whatsapp"
           width={70}
           height={70}
+          className="w-10 h-10 md:w-full md:h-full"
         />
       </Link>
     </div>
