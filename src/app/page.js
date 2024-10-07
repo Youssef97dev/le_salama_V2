@@ -43,7 +43,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="w-full h-[220vh] md:h-screen flex flex-col justify-start items-center">
+    <div className="w-full h-[100vh] md:h-screen flex flex-col justify-start items-center">
       <div className="w-full h-[10vh] bg-primary flex justify-between items-center px-5 gap-3">
         <div>
           <Link
@@ -92,7 +92,7 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
-      <div className="w-full h-[210vh] md:h-[90vh] bg-black flex flex-col md:flex-row justify-center items-center">
+      <div className="w-full h-[90vh] md:h-[90vh] bg-black flex flex-col md:flex-row justify-center items-center">
         {columns.map((col) => (
           <Link
             key={col.id}
