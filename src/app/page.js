@@ -17,6 +17,7 @@ export default function HomePage() {
       imageSrc: "/assets/images/salama_24.jpg",
       videoSrc: "/assets/videos/salamavid1.mp4",
       href: "/menu",
+      className: "order-2 md:order-1",
     },
     {
       id: 2,
@@ -24,6 +25,7 @@ export default function HomePage() {
       imageSrc: "/assets/images/salama_12.jpg",
       videoSrc: "/assets/videos/salamavid2.mp4",
       href: "/home",
+      className: "order-1 md:order-2",
     },
     {
       id: 3,
@@ -31,6 +33,7 @@ export default function HomePage() {
       imageSrc: "/assets/images/salama_13.jpg",
       videoSrc: "/assets/videos/salamavid3.mp4",
       href: "/events",
+      className: "order-3",
     },
   ];
 
@@ -43,7 +46,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="w-full h-[280vh] md:h-screen flex flex-col justify-start items-center">
+    <div className="w-full h-[300vh] md:h-screen flex flex-col justify-start items-center">
       <div className="w-full h-[10vh] bg-primary flex justify-between items-center px-5 gap-3">
         <div>
           <Link
@@ -92,7 +95,7 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
-      <div className="w-full h-[270vh] md:h-[90vh] bg-black flex flex-col md:flex-row justify-center items-center">
+      <div className="w-full h-[290vh] md:h-[90vh] bg-black flex flex-col md:flex-row justify-center items-center">
         {columns.map((col) => (
           <Link
             key={col.id}
@@ -101,6 +104,8 @@ export default function HomePage() {
             onMouseEnter={() => handleMouseEnter(col.id)}
             onMouseLeave={handleMouseLeave}
             className={`w-full h-full relative bg-slate-700 overflow-hidden transition-all duration-500 ease-in-out flex-1 ${
+              col.className
+            } ${
               hovered === col.id
                 ? "flex-[9]"
                 : hovered !== null
