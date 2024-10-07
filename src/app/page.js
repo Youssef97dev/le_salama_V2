@@ -107,7 +107,7 @@ export default function HomePage() {
               col.className
             } ${
               hovered === col.id
-                ? "flex-[9]"
+                ? "flex-1 md:flex-[9]"
                 : hovered !== null
                 ? "flex-[1]"
                 : "flex-1"
