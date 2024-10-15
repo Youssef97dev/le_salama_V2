@@ -13,7 +13,7 @@ export default function HomePage() {
   const columns = [
     {
       id: 1,
-      title: "La Carte",
+      title: "Carte",
       imageSrc: "/assets/images/salama_24.jpg",
       videoSrc: "/assets/videos/salamavid1.mp4",
       href: "/menu",
@@ -21,7 +21,7 @@ export default function HomePage() {
     },
     {
       id: 2,
-      title: "Le Salama",
+      title: "Restaurant Skybar",
       imageSrc: "/assets/images/salama_12.jpg",
       videoSrc: "/assets/videos/salamavid2.mp4",
       href: "/home",
