@@ -29,7 +29,7 @@ export default function HomePage() {
     },
     {
       id: 3,
-      title: "L'ambiance",
+      title: "Ambiance",
       imageSrc: "/assets/images/salama_13.jpg",
       videoSrc: "/assets/videos/salamavid3.mp4",
       href: "/events",
