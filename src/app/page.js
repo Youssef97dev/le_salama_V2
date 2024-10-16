@@ -21,7 +21,7 @@ export default function HomePage() {
     },
     {
       id: 2,
-      title: "Restaurant Skybar",
+      title: "Restaurant - Skybar",
       imageSrc: "/assets/images/salama_12.jpg",
       videoSrc: "/assets/videos/salamavid2.mp4",
       href: "/home",
