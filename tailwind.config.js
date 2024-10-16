@@ -40,6 +40,9 @@ module.exports = {
       rotate: {
         "y-180": "rotateY(180deg)",
       },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+      },
       backfaceVisibility: ["hidden"],
     },
   },
