@@ -100,7 +100,6 @@ export default function HomePage() {
           <Link
             key={col.id}
             href={col.href}
-            target="_blank"
             onMouseEnter={() => handleMouseEnter(col.id)}
             onMouseLeave={handleMouseLeave}
             className={`w-full h-full relative bg-slate-700 overflow-hidden transition-all duration-500 ease-in-out flex-1 ${
