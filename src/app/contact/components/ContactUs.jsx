@@ -27,7 +27,7 @@ const ContactUs = () => {
         <div className="flex flex-col lg:flex-row justify-center items-start gap-6 w-full">
           <InfoCard
             icon={<LuMapPin size={55} />}
-            title="Adresse"
+            title="Adress"
             content="40 Rue des Banques, Marrakech 40000, Maroc"
           />
           <InfoCard
