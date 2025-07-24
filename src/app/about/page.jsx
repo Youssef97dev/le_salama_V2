@@ -3,6 +3,7 @@ import AboutUs from "./components/AboutUs";
 import NavbarMiddle from "@/components/NavbarMiddle";
 import Footer from "@/components/Footer";
 import Reserve from "@/components/Reserve";
+import WtspButton from "@/components/WtspButton";
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <AboutUs />
       <Reserve />
       <Footer />
+      <WtspButton />
     </div>
   );
 };

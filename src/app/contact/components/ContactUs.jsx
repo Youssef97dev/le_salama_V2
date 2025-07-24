@@ -22,17 +22,17 @@ const ContactUs = () => {
     isClient && (
       <div
         id="main"
-        className="flex flex-col justify-center items-center gap-14 py-4 px-3 lg:px-10 lg:py-16  xl:px-72"
+        className="flex flex-col justify-center items-center gap-14 py-4 px-3 lg:px-10 lg:py-16  xl:px-56"
       >
         <div className="flex flex-col lg:flex-row justify-center items-start gap-6 w-full">
           <InfoCard
             icon={<LuMapPin size={55} />}
-            title="Adress"
+            title="Address"
             content="40 Rue des Banques, Marrakech 40000, Maroc"
           />
           <InfoCard
             icon={<MdOutlinePhoneIphone size={55} />}
-            title="Tel"
+            title="Téléphone"
             content="+212 675-480018"
           />
           <InfoCard

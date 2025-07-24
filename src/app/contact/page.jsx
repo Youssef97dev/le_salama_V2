@@ -3,6 +3,7 @@ import NavbarMiddle from "@/components/NavbarMiddle";
 import Hero from "./components/Hero";
 import ContactUs from "./components/ContactUs";
 import Reserve from "@/components/Reserve";
+import WtspButton from "@/components/WtspButton";
 
 const page = () => {
   return (
@@ -22,6 +23,7 @@ const page = () => {
       </div>
       <Reserve />
       <Footer />
+      <WtspButton />
     </div>
   );
 };
