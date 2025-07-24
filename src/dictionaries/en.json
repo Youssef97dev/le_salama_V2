@@ -118,5 +118,14 @@
     "description_3_1": "La Boutique by Le Salama offers a whole range of designer dresses.",
     "description_3_2": "A wide selection of handbags, made by artisans in limited editions.",
     "description_3_3": "Opening hours: daily from 11AM to 11PM."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "send": "Send",
+    "open": "Open daily from 12 to 2:00 PM"
   }
 }

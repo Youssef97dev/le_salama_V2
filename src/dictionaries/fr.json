@@ -118,5 +118,14 @@
     "description_3_1": "La Boutique by Le Salama, c’est toute une proposition de Robes de créateurs.",
     "description_3_2": "Une large sélection de sac à main, fabriqué par des artisans en édition limité.",
     "description_3_3": "Horaires : tous les jours de 11h00 à 23h00."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "E-mail",
+    "phone": "Numéro Téléphone",
+    "send": "Envoyer",
+    "open": "Ouvert : 12h00 PM - 02h00 AM"
   }
 }
