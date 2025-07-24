@@ -1,7 +1,4 @@
-import Link from "next/link";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { IoMdStar } from "react-icons/io";
-
+"use client";
 import { Rating } from "react-simple-star-rating";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
