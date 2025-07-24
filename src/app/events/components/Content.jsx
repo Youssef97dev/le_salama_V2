@@ -24,14 +24,6 @@ const Content = () => {
       text_2: `${t("page_event.description_2_2")}`,
       text_3: `${t("page_event.description_2_3")}`,
     },
-    {
-      imageUrl: "/assets/images/concept-store.jpg",
-      title: t("page_event.small_title_3"),
-      className: "flex-col-reverse md:flex-row",
-      text_1: `${t("page_event.description_3_1")}`,
-      text_2: `${t("page_event.description_3_2")}`,
-      text_3: `${t("page_event.description_3_3")}`,
-    },
   ];
 
   useEffect(() => {
