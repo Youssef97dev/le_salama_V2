@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import NavbarMiddle from "@/components/NavbarMiddle";
 import Hero from "./components/Hero";
 import ContactUs from "./components/ContactUs";
+import Reserve from "@/components/Reserve";
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      <Reserve />
       <Footer />
     </div>
   );

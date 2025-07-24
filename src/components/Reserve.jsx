@@ -13,20 +13,6 @@ import { useTranslation } from "react-i18next";
 
 const reviews = [
   {
-    stars: 5,
-    comments:
-      "had the pleasure of dining at this charming restaurant as its my 2nd time and it was truly a delightful evening. The ambiance was cozy and inviting, setting the perfect tone for a memorable dining experience. The service was exceptional, with attentive staff who made sure every detail was taken care of, adding to the overall enjoyment of the evening. What truly stole the show was the amazing performance that accompanied our meal. The entertainment was top-notch, adding an extra layer of excitement and fun to the dining experience. I highly recommend this restaurant for anyone looking for a fantastic night out with great food, impeccable service, and unforgettable entertainment.",
-    name: "Toseehamza",
-    platform: "Google",
-  },
-  {
-    stars: 5,
-    comments:
-      "Lovely, quiet, second floor patio to enjoy a beer and people watch during happy hour. Amazingly friendly and exceptionally hardworking staff from street host to sweetest young man who was serving the entire floor. Close enough to square and far enough to relax. Belly dancing shows every night at 9pm! I came back a second time and the same young man kindly greeted myself and other guests, offering to take photos and even presented sharing dishes.",
-    name: "Allie H",
-    platform: "Google",
-  },
-  {
     stars: 4,
     comments:
       "Lovely atmosphere in a nice terrace in the city center of Marrakesh, good typical Moroccan food. Special thanks to Mustapha",
@@ -53,15 +39,17 @@ const Reserve = () => {
   const { t } = useTranslation();
   return (
     <div
-      className="w-full h-fit relative bg-fixed bg-cover bg-center flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-9 py-2 px-3 lg:px-10 lg:py-16  xl:px-28"
-      style={{ backgroundImage: "url('/assets/images/lesalama_6.jpg')" }}
+      className="w-full h-fit relative bg-fixed bg-cover bg-center flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-9 py-2 px-3 lg:px-10 lg:py-5  xl:px-28"
+      style={{
+        backgroundImage: "url('/assets/images/lesalama_6.jpg')",
+      }}
     >
       <div className="absolute inset-0 bg-[#000000] h-full opacity-70"></div>
       <div
         className="z-10  w-full h-full"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-easing="linear"
+        //data-aos="fade-up"
+        //data-aos-duration="1000"
+        //data-aos-easing="linear"
       >
         <Swiper
           modules={[Navigation, Autoplay, Pagination]}
@@ -98,7 +86,7 @@ const Reserve = () => {
           </div>
         </Swiper>
       </div>
-      <div
+      {/*<div
         className="z-10 text-white w-full h-full flex justify-center rounded-sm "
         data-aos="fade-down"
         data-aos-duration="1000"
@@ -128,7 +116,7 @@ const Reserve = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 };
