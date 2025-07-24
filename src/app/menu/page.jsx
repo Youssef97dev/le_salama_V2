@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
 import { I18nextProvider } from "react-i18next";
 import i18next from "../../../i18n.js";
+import WtspButton from "@/components/WtspButton";
+import Reserve from "@/components/Reserve";
 
 const NavbarMiddle = dynamic(() => import("@/components/NavbarMiddle"), {
   ssr: false,
@@ -17,7 +19,9 @@ const page = () => {
         <NavbarMiddle />
         <Hero />
         <Menu />
+        <Reserve />
         <Footer />
+        <WtspButton />
       </I18nextProvider>
     </div>
   );
