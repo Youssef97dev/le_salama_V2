@@ -12,6 +12,7 @@ import { PiWineFill } from "react-icons/pi";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import SmallGallery from "./SmallGallery";
 
 const Menu = () => {
   const [isClient, setIsClient] = useState(false);
@@ -136,7 +137,8 @@ const Menu = () => {
         id="main"
         className="relative my-3 mx-3 md:mx-16 xl:mx-60 flex flex-col justify-center items-center"
       >
-        <TabGroup>
+        <SmallGallery />
+        {/*<TabGroup>
           <TabList className="mt-16 mb-5 flex flex-wrap justify-center">
             <Tab as={Fragment}>
               {({ selected }) => (
@@ -199,7 +201,7 @@ const Menu = () => {
                       <span className="text-lg md:text-xl italic text-primary ">
                         {item.name}
                       </span>
-                      {/* Dotted Line */}
+                      
                       <div className="flex-grow mx-4 p-[1px]  border-t border-b border-dashed border-primary_4"></div>
                       <span className="text-black italic text-sm md:text-base">
                         {item.price}
@@ -223,7 +225,7 @@ const Menu = () => {
                       <span className="text-lg md:text-xl italic text-primary ">
                         {item.name}
                       </span>
-                      {/* Dotted Line */}
+                      
                       <div className="flex-grow mx-4 p-[1px]  border-t border-b border-dashed border-primary_4"></div>
                       <span className="text-black italic text-sm md:text-base">
                         {item.price}
@@ -247,7 +249,7 @@ const Menu = () => {
                       <span className="text-lg md:text-xl italic text-primary ">
                         {item.name}
                       </span>
-                      {/* Dotted Line */}
+                      
                       <div className="flex-grow mx-4 p-[1px]  border-t border-b border-dashed border-primary_4"></div>
                       <span className="text-black italic text-sm md:text-base">
                         {item.price}
@@ -261,7 +263,8 @@ const Menu = () => {
               </div>
             </TabPanel>
           </TabPanels>
-        </TabGroup>
+        </TabGroup>*/}
+        <div></div>
         <Gallery />
         <div className="fixed bottom-4 right-6 cursor-pointer  hover:scale-105 transition-all ease-in-out animate-bounce">
           <Link href="https://www.lesalamamarrakech.com/menu/" target="_blank">
@@ -269,6 +272,7 @@ const Menu = () => {
               src="/assets/images/iconmenu.png"
               height={70}
               width={70}
+              alt="le salama"
               className="w-14 h-14 md:h-20 md:w-20"
             />
           </Link>
