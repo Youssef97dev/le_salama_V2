@@ -145,7 +145,7 @@ const NavbarMiddle = () => {
               </Link>
               <Link
                 target="_blank"
-                href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+                href="https://www.sevenrooms.com/explore/lesalamamarrakech/reservations/create/search/"
                 className="relative group flex items-center space-x-2"
               >
                 <FaRegCalendarCheck size={18} />
