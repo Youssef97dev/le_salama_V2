@@ -1,4 +1,3 @@
-"use client";
 import Hero from "./components/Hero";
 import Footer from "@/components/Footer";
 import Content from "./components/Content";

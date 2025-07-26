@@ -9,6 +9,10 @@ const Content = () => {
 
   const [isClient, setIsClient] = useState(false);
 
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   const contentAr = [
     {
       imageUrl: "/assets/images/privatisation.jpg",
@@ -25,10 +29,6 @@ const Content = () => {
       text_3: `${t("page_event.description_2_3")}`,
     },
   ];
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   return (
     isClient && (
