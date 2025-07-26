@@ -22,7 +22,7 @@ const ContactUs = () => {
     isClient && (
       <div
         id="main"
-        className="flex flex-col justify-center items-center gap-14 py-4 px-3 lg:px-10 lg:py-16  xl:px-40"
+        className="flex flex-col justify-center items-center gap-14 py-4 px-3 lg:px-20 lg:py-16 "
       >
         <div className="flex flex-col lg:flex-row justify-center items-start gap-6 w-full">
           <InfoCard

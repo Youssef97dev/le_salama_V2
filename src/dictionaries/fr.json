@@ -126,6 +126,9 @@
     "email": "E-mail",
     "phone": "Numéro Téléphone",
     "send": "Envoyer",
-    "open": "Ouvert : 12h00 PM - 02h00 AM"
+    "open": "Ouvert : 12h00 PM - 02h00 AM",
+    "guests": "Nombre de personnes",
+    "reservationDate": "Date de réservation",
+    "time": "Heure"
   }
 }

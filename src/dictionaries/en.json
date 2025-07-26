@@ -126,6 +126,9 @@
     "email": "Email",
     "phone": "Phone Number",
     "send": "Send",
-    "open": "Open daily from 12 to 2:00 PM"
+    "open": "Open daily from 12 to 2:00 PM",
+    "guests": "Guests Number",
+    "reservationDate": "Reservation Date",
+    "time": "Time"
   }
 }
