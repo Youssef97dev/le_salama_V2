@@ -13,7 +13,7 @@ const images = [
   "/assets/images/menu-gallery/menu-gallery-21.jpg",
   "/assets/images/menu-gallery/menu-gallery-22.jpg",
   "/assets/images/menu-gallery/menu-gallery-9.jpg",
-  //"/assets/images/menu-gallery/menu-gallery-10.jpg",
+  "/assets/images/menu-gallery/menu-gallery-10.jpg",
   //"/assets/images/menu-gallery/menu-gallery-11.jpg",
   //"/assets/images/menu-gallery/menu-gallery-12.jpg",
   //"/assets/images/menu-gallery/menu-gallery-23.jpg",
