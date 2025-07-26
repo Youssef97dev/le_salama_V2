@@ -124,7 +124,7 @@
     "firstname": "First Name",
     "lastname": "Last Name",
     "email": "Email",
-    "phone": "Phone Number",
+    "phone": "WhatsApp phone number",
     "send": "Send",
     "open": "Open daily from 12 to 2:00 PM",
     "guests": "Guests Number",
