@@ -43,8 +43,9 @@ const Footer = () => {
             <Link href="/">{t("menu.home")}</Link>
             <Link href="/menu">{t("menu.cartemenu")}</Link>
             <Link href="/about">{t("menu.aboutus")}</Link>
-            <Link href="#">{t("menu.gallery")}</Link>
-            <Link href="#">{t("menu.contact")}</Link>
+            <Link href="/gallery">{t("menu.gallery")}</Link>
+            <Link href="/contact">{t("menu.contact")}</Link>
+            <Link href="#">{`FAQs`}</Link>
           </div>
           <div className="flex flex-col gap-2 items-center lg:items-start justify-center">
             <span className="!text-2xl  font-semibold mb-3  capitalize">

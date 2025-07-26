@@ -49,7 +49,7 @@ const FirstPage = () => {
       <div className="absolute lg:top-5 top-0 z-20 w-full h-[10vh] bg-transparent flex justify-between items-center px-5 gap-3">
         <div>
           <Link
-            href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+            href="https://www.sevenrooms.com/explore/lesalamamarrakech/reservations/create/search/"
             className="flex justify-center items-center space-x-2 w-fit border border-primary_1 py-2 px-2 md:py-2 md:px-4 rounded-md text-primary_1 hover:bg-primary_1 hover:text-primary font-semibold text-xs md:text-base"
           >
             <FaRegCalendarCheck />
@@ -74,7 +74,7 @@ const FirstPage = () => {
           >
             <BsInstagram className="w-5 h-5 lg:w-7 lg:h-7 md:w-full md:h-full" />
           </Link>
-          <Link href="#" target="_blank">
+          <Link href="http://wa.me/212675480018" target="_blank">
             <BsWhatsapp className="w-5 h-5 lg:w-7 lg:h-7 md:w-full md:h-full" />
           </Link>
         </div>

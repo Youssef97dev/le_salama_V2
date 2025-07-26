@@ -18,7 +18,7 @@ const WtspButton = () => {
         />
       </Link>
       <Link
-        href="http://wa.me/212675480018"
+        href="https://www.sevenrooms.com/explore/lesalamamarrakech/reservations/create/search/"
         target="_blank"
         className="hover:scale-105"
       >
